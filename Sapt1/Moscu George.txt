@@ -1,0 +1,76 @@
+Cum se contruieste un document RDF:
+
+- Prima data se adauga nodul root
+
+	<rdf:RDF 
+		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+		
+		<!-- Body Code Here -->
+		
+	</rdf:RDF>
+
+http://www.w3.org/1999/02/22-rdf-syntax-ns# este un namespace ce spune fiecarui cititor
+ca este un document RDF si ca tagul rdf:RDF se afla in acel namespace
+
+
+
+- Adaugarea unui statement
+
+	<rdf:RDF
+		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+		<rdf:Description rdf:about="http://www.link.com/clothes#t-shirt">
+
+			<!-- Statement Code Here -->
+
+		</rdf:Description>
+
+	</rdf:RDF>
+
+Un document RDF poate contine mai multe statement-uri 
+
+
+
+- Adaugarea de predicate
+
+	<rdf:RDF
+		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		xmlns:feature="http://www.link.com/clothing-features#">
+
+		<rdf:Description rdf:about="http://www.link.com/clothes#t-shirt">
+
+			<feature:size>12</feature:size>
+			<feature:color rdf:resource="http://www.link.com/colors#white"/>
+
+		</rdf:Description>
+
+	</rdf:RDF>
+
+Statement-urile descriu caracteristicile subiectilor lor utilizand proprietati
+
+- Un exemplu de cod RDF formalizat
+
+	<?xml version="1.0" encoding="UTF-8"?>
+
+	<rdf:RDF
+		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		xmlns:dc="http://purl.org/dc/elements/1.1/"
+		xmlns:region="http://www.country-regions.fake/">
+
+		<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Oxford">
+			<dc:title>Oxford</dc:title>
+			<dc:coverage>Oxfordshire</dc:coverage>
+			<dc:publisher>Wikipedia</dc:publisher>
+			<region:population>10000</region:population>
+			<region:principaltown rdf:resource="http://www.country-regions.fake/oxford"/>
+		</rdf:Description>
+
+	</rdf:RDF>
+
+
+	
+	
+
+Documentatie: 
+ - http://www.linkeddatatools.com/introducing-rdf-part-2
+ - https://www.w3.org/TR/owl-features/
