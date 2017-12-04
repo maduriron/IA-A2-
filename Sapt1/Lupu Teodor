@@ -1,0 +1,55 @@
+Protege este un editor de ontologii dezvoltat de către Stanford Center for Biomedical Informatics Research de la Stanford University School of Medicine. 
+Este Open source ceea ce înseamnă că îl putem utiliza fără a avea teama că datele noastre, ontologiile create vor fi  blocate prin dependenţa la un soft proprietar.
+
+Ontologiile OWL au componente similare cu Protege frame, bazate pe ontologii. Oricum, terminologia folosita pentru a descrie aceste componente este diferita de cea utilizata de Protege.
+O ontologie OWL este construita din Indivizi, Proprietati si Clase, care au corenpondent in Protege: Instance, Sloturi si Clase
+
+Indivizii
+Indivizii, reprezinta obiecte din domeniu de care noi suntem interesati. 
+O diferenta importanta intre Protege si OWL este ca OWL nu utilizeaza Unified Name Assumption (UNA), aceasta inseamna ca doua nume distincte pot defapt referi acelasi individ.
+Spre exemplu “Regina Elizabeta”, “Regina”si “Elizabeth Windsor” pot referi acelasi individ. In OWL, trebuie specificat explicit ca indivizii sunt la fel unii cu altii sau dinstincti unii de altii. 
+Indivizii mai sunt cunoscuti si ca instante. Indivizii pot fi referiti si ca fiind “instante ale claselor”.
+	
+Proprietatile
+Proprietatile sunt relatii binare intre indivizi; spre exemplu proprietatile leaga doi indivizi unul de altul.
+De exemplu, proprietatea areFrate poate lega individul Ion de individul Maria., sau propretatea areCopil poate lega individul Petre de individul Ion. 
+Proprietatile pot avea inversi. De exemplu inversul lui areProprietar este esteDetinutDe. Proprietatile pot fi limitate in a avea o singura valoare. 
+Deasemenea ele pot fi tranzitive sau simetrice. Figura de mai jos arata o reprezentare a unor proprietati care leaga cativa indivizi impreuna. 
+Proprietatile sunt echivalente cu slot-urile in Protege. Ele sunt deasemenea cunoscute ca si roluri in descrierea logica si relatii in UML si alte notatii orientate obiect.
+
+
+Clasele
+Clasele OWL sunt interpretate ca seturi care contin indivizi. Ele sunt decrise utilizand descrieri formale (matematice) care precizeaza cerintele pentru membrii claselor. 
+De exemplu clasa Pisica ar contine tot indivizii care sunt pisici in domeniul nostru de interes. Clasele pot fi organizate intr-o ierarhie de superclase-subclase, care este cunoscuta sub numele de taxonomie. 
+Subclasele specializeaza superclasele. Spre exemplu considerati clasele Animal si Pisica – Pisica poate fi o subclasa a clasei Animal (deci Animal este superclasa clasei Pisica). 
+Aceasta poate fi tradusa astfel: “Toate pisicile sunt animale”, “Toti membrii clasei Pisica sunt membrii clasei Animal”, “Fiind pisica implica ca esti un Animal”. 
+Una dintre caracteristicile OWL-DL este ca aceste relatii superclasa-subclasa pot fi calculate automat de un reasoner. 
+Figura de mai jos arata o reprezentare a unor clase ce contin indivizi: clasele sunt reprezentate de cercuri sau ovaluri. 
+Cuvantul concept este cateodata folosit in locul claselor. Clasele sunt reprezentari concrete ale conceptelor.
+
+
+Elementul de bază al unui document RDF este tripletul. Un triplet este o propoziŃie ce are un subiect, predicat şi un obiect (proprietate).
+Subiectul şi predicatul sunt resurse identificate prin URI-uri, iar obiectul poate fi o resursă sau o valoare efectivă. 
+Cu ajutorul RDF pot fi descrise mai multe tipuri de resurse predefinite dar pot fi definite şi tipuri noi de resurse cu ajutorul unei extensii numite RDF Schema. 
+RDF Schema (RDFS) permite definirea unor clase, instanŃe şi proprietăŃi utilizând sintaxa RDF. 
+De asemenea, permite definirea unor relaŃii între resurse prin oferirea posibilităŃii de a defini subclase, subproprietăŃi, precum şi domeniu şi co-domeniu pentru proprietăŃi. 
+
+exemplu :
+
+<owl:Class>
+  <owl:intersectionOf   rdf:parseType="Collection">
+	<owl:Class   rdf:about="#Person"/>
+	<owl:Restriction>
+	      <owl:onProperty   rdf:resource="#hasChild"/>
+	          <owl:allValuesFrom>
+		       <owl:unionOf   rdf:parseType="Collection">
+		           <owl:Class rdf:about="#Doctor"/>
+		           <owl:Restriction>
+		    	  <owl:onProperty  rdf:resource="#hasChild"/>
+			  <owl:someValuesFrom  rdf:resource="#Doctor"/>
+		           </owl:Restriction>
+		       </owl:unionOf>
+		 </owl:allValuesFrom>
+	</owl:Restriction>
+  </owl:intersectionOf>
+</owl:Class>
