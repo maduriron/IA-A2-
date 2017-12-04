@@ -1,0 +1,10 @@
+Exemple de ontologii din domeniul medical:
+1. The Protein Ontology;
+2. The Gene Ontology;
+3. The Cell Ontology;
+4. The Immune Epitope Ontology;
+5. Infectious Disease Ontology;
+6. ImmPort Antibody Ontology;
+7. Vaccine Ontology;
+8. Ontology for General Medical Science;
+9. Ontology for Biomedical Investigations.
