@@ -1,0 +1,67 @@
+http://andrei.clubcisco.ro/cursuri/f/f-sym/4ioc/labs/RDF_OWL.pdf
+
+O ontologie este
+formată din clase (concepte) şi sloturi (roluri sau proprietăŃi) şi restricŃii pe aceste sloturi. O bază
+de cunoştinŃe este formată dintr-o ontologie împreună cu un set de instanŃe ale claselor. 
+
+În aceste condiŃii, au apărut mai multe metodologii pentru a facilita dezvoltarea rapidă şi corectă a
+unei ontologii, care constă în următorii paşi: 
+
+1. definirea domeniului şi obiectivelor ontologiei prin găsirea raspunsului la următoarele
+întrebări:
+- Care este domeniul pe care trebuie să îl acopere ontologia?
+- La ce o vom folosi?
+- La ce tip de întrebări trebuie sa ofere răspuns ontologia?
+- Cine va trebui să o utilizeze şi să o menŃină?
+2. găsirea unor ontologii similare cu scopul de a reutiliza conceptele sau chiar de a folosi
+ontologia existentă în caz că aceasta există
+3. alcătuirea unei liste cu termenii ce vor apărea în ontologie
+4. definirea claselor si a ierarhiei de clase folosind o abordare top-down (de la concepte
+generale spre concepte particulare), bottom-up (încadrarea în categorii a conceptelor
+simple) sau mixtă.
+5. definirea proprietăŃilor (sloturilor) unei clase
+6. definirea tipurilor proprietăŃilor (cardinalitate, domeniu şi co-domeniu al valorilor)
+7. crearea instanŃelor claselor 
+
+Urmărirea paşilor acestei metodologii asigură o mai mare probabilitate ca ontologia să fie
+corectă şi completă. 
+
+RDF (Resource Description Framework) este un limbaj bazat pe sintaxa XML ce utilizează un
+model de reprezentare a grafurilor pentru a exprima fapte despre resurse identificate prin URI-uri 
+
+Limbajul RDF
+are ca obiectiv să ofere metadate despre resurse web (autor, descriere, data creării şi altele, în
+Elementul de bază al unui document RDF este tripletul. Un triplet este o propoziŃie ce are un
+subiect, predicat şi un obiect (proprietate). Subiectul şi predicatul sunt resurse identificate prin
+URI-uri, iar obiectul poate fi o resursă sau o valoare efectivă. 
+
+ OWL (Web Ontology Language - McGuinness 2004, Patel-Schneider 2004) este un limbaj
+conceput pentru a defini ontologii. Este un limbaj care extinde RDF, permiŃând folosirea unor 
+instrumente de inferenŃă pe datele din ontologie. Are trei sub-limbaje distincte OWL Lite, OWL
+DL şi OWL Full ce diferă prin ceea ce pot exprima. 
+
+OWL Lite suportă restricŃii de cardinalitate (0 sau 1) precum şi restricŃii de tip
+„AllValuesFrom” şi „SomeValuesFrom”. RestricŃiile de cardinalitate specifică numărul de
+proprietăŃi de un anumit tip pe care le poate avea o clasă.
+
+OWL DL (Description Logic) este un limbaj mai avansat, bazat pe un subset decidabil al
+logicii cu predicate. OWL DL permite definirea unor relaŃii de disjuncŃie între clase. El permite şi
+definirea de clase prin reuniune, diferenŃă şi intersecŃie de clase. 
+
+OWL Full permite definirea mai multor tipuri de constrângeri decât OWL DL dar fără a oferi
+garanŃii computaŃionale
+
+Exemplul:
+
+<!-- OWL Class Definition - Person Body -->
+<owl:Class rdf:about="...">
+	<rdfs:label> body </rdfs:label>
+</owl:Class>
+
+<!-- OWL Subclass Definition - Head -->
+<owl:Class rdf:about="...">
+	<!-- Head is a subclassification of body part -->
+	<rdfs:subClassOf rdf:resource="- about body-"/>
+	<rdfs:label> bottom body </rdfs:label>
+	<rdfs:label> top body </rdfs:label>
+</owl:Class>
