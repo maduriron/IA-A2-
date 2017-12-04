@@ -1,0 +1,23 @@
+O ontologie reprezinta conceptualizarea unui domeniu de cunoa?tere într-un format
+ destinat a fi procesat de calculator, format modelând entita?i, atribute, rela?ii ?i axiome.
+
+Scop: conceptualizari complexe ale unui domeniu de interes
+
+
+exemplu de rdf schema:
+
+<owl:Classrdf:ID="Audio">
+ <rdfs:subClassOfrdf:resource="#Multimedia" />
+</owl:Class>
+
+
+<owl:Classrdf:ID="Video">
+ <rdfs:subClassOfrdf:resource="#Multimedia" />
+ <owl:disjointWithrdf:resource="#LumiVirtuale" />
+ <owl:disjointWithrdf:resource="#Executabile" />
+</owl:Class
+
+OWL este format din mai multe RDF
+
+Un exemplu de ontologie OWL:
+https://protege.stanford.edu/ontologies/pizza/pizza.owl
