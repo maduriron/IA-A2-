@@ -1,0 +1,31 @@
+RDF->layer-ul de baza pentru reprezentarea datelor,este redat in XML si este compus din tag-uri pentru descrierea semanticii
+Cele mai importante tag-uri sunt:
+- <rdf:subject>
+- <rdf:predicate>
+- <rdf:object>
+Exemplu: <rdf:subject>Fanta</rdf:subject>
+	 <rdf:predicate>este vanduta de</rdf:predicate>
+         <rdf:object>The Coca-Cola Company</rdf:object>
+
+OWL->ofera o sintaxa care poate fi inteleasa direct de catre computere.El construieste pe RDF-uri si este alcatuit tot din
+tag-uri XML
+Tag-urile specifice:
+- Clasa entitate: <owl:class rdf:id="...">
+- Atribut: <owl:datatypeProperty rdf:id="...">
+- Relatie: <owl:objectProperty rdf:id="...">
+Aici putem vorbi si de instante a unor clase,exemplu:
+ <owl:Class rdf:ID="Ship"/>
+ <owl:Thing rdf:ID="Titanic">
+    <rdf:type rdf:resource="#Ship">
+ </owl:Thing>
+Un exemplu in care se specifica relatia in OWL:
+ <owl:Class rdf:ID="City"/>
+ <owl:Class rdf:ID="Country"/>
+ <owl:ObjectProperty rdf:ID="located_in_country">
+	<rdfs:domain rdf:resource="#City"/>
+	<rdfs:range rdf:resource="#Country"/>
+ </owl:ObjectProperty>
+RDFS este o extensie a RDF in care sunt adaugate si tag-urile: Resource,Class,Sub-class,Range,Domain;
+Stim ca un oras trebuie sa apartina unei anumite tari,astfel daca un oras este trimis fara o tara identificata,nu poate fi acceptat.
+
+ML si ontologii:

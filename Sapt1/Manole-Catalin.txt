@@ -1,0 +1,41 @@
+RDF is a standard model for data interchange on the Web.
+
+RDF data can be encoded with semantic metadata using two syntaxes: RDFS and OWL.
+
+Particularities:
+- OWL describes semantic relationships
+- RDFS is used to define the structure of the data
+- RDF -> rdf:type
+- RDFS (RDF Schema) -> defines some classes which represent the concept of subjects, objects, predicates etc
+
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"    // RDFS
+	xmlns:owl="http://www.w3.org/2002/07/owl#"            // OWL
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+	<!-- OWL Header Example -->
+	<owl:Ontology rdf:about="http://www.linkeddatatools.com/plants">
+		<dc:title>The LinkedDataTools.com Example Plant Ontology</dc:title>
+		<dc:description>An example ontology written for the LinkedDataTools.com RDFS & OWL introduction tutorial</dc:description>
+	</owl:Ontology>
+
+	<!-- OWL Class Definition Example -->
+	<owl:Class rdf:about="http://www.linkeddatatools.com/plants#planttype">
+		<rdfs:label>The plant type</rdfs:label>
+		<rdfs:comment>The class of plant types.</rdfs:comment>
+	</owl:Class>
+</rdf:RDF>
+
+RDFS props:
+    -rdfs:subClassOf
+    -rdfs:label
+    -rdfs:comment
+
+
+Owl props:
+    -owl:DatatypeProperty
+    -owl:ObjectProperty
+    -owl:Ontology
+    -owl:Class
+

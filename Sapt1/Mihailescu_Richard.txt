@@ -1,0 +1,111 @@
+		RDF si schema RDF
+	
+	Resource Description Network (RDF) defineste modelul de date pentru
+Semantic Web. Pentru reprezentarea RDF a fost aleasa cea mai simpla 
+structura de reprezentare a informatiilor: graful orientat. Un set de 
+date RDF poate fi privit ca un triplet al grafului de forma:
+    -- Subiect Predicat Obiect --
+    Nodurile dintre o muchie leaga Subiectul (ce este o resursa reprezentata
+de un URI sau un nod blank) de Obiect ( ce reprezinta o resursa, un nod blank,
+un literal tip datatype sau un literal. Predicatul, definit in terminologia
+RDF ca proprietate, este reprezentat de labelul muchiei.
+Exemplu:
+    Avem urmatorul scenariu: trei persoane - Alice, Bob si Charles, au anumite
+relatii intre ei :) .Alice ii cunoaste si pe Bob si pe Charles, Bob il cunoaste
+doar pe Charles, iar Charles nu cunoaste pe nimeni. Muchiile grafului pentru 
+acest exemplu sunt urmatoarele (vom folosi notiunea FOAF(friend-of-a-friend)
+din vocabularul RDF pentru codificarea informatiei):
+  1.  _:a --- foaf:name --> "Alice"
+  2.  _:a --- rdf:knows --> _:b
+  3.  _:a --- rdf:knows -->_:c
+  4.  _:a --- rdf:type --> foaf:Person
+  5.  _:b --- foaf:name --> "Bob"
+  6.  _:b --- rdf:knows -->_:c
+  7.  _:b --- rdf:type --> foaf:Person
+  8.  _:c --- foaf:name --> "Charles"
+  9.  _:c --- rdf:type --> foaf:Person
+  
+Pentru a deduce ca " o persoana numita Bob cunoaste o persoana numita Charles"
+avem nevoie de muchiile 5,6,7,8,9.
+Nodurile blank dintr-un graf pot fi substituite uniform fara a schimba informatiile
+codificate precedent. Reprezentarea grafului de mai sus intr-un format RDF/XML:
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<foaf:Person rdf:nodeID="a">
+<foaf:name>Alice</foaf:name>
+<foaf:knows>
+<foaf:Person rdf:nodeID="b">
+<foaf:name>Bob</foaf:name>
+<foaf:knows>
+<foaf:Person rdf:nodeID="c">
+<foaf:name>Charles</foaf:name>
+</foaf:Person>
+</foaf:knows>
+</foaf:Person>
+</foaf:knows>
+<foaf:knows rdf:nodeID="c"/>
+</foaf:Person>
+</rdf:RDF>
+
+    SPARQL Query Language pentru RDF
+    
+    SPARQL reprezinta limbajul standard W3C pentru interogarea datelor RDF. Un query
+in acest limbaj poate fi impartit in doua componente: (i) retrieval part(body) si
+(ii) result construction part(head). Prima parte a unui query SPARQL (prologul P) 
+consta in declararea prefixelor namespace, ce sunt folosite in componenta "where" 
+pentru prescurtarea literalilor IRI in body. Componeta body a unei interogari 
+SPARQL(DWM) contine urmtoarele: un dataset RDF (D) - setul de grafuri sursa folosite
+ca input -  este specificat de clauze "from" sau "from named". Combinarea surselor
+RDF multiple specificate in clauze "from" consecutive reprezinta un feature determinant
+al SPARQL, pe care formatul RDF simplu nu il detine. Partea "where" (W) permite 
+match-ul pe seturi de date RDF, prin specificarea unui graph pattern ce poate
+include variabile (simbolurile variabilelor sun prefixate cu "?"). Acest pattern
+poate fi exprimate in cel mai simplu caz printr-o lista de patternuri triple
+consecutive, triple ce contin variabile, IRIs, noduri blank si literali RDF. 
+Patterni mai complecsi permit utilizarea de multimi de graph patterns, matching 
+optional pe subcomponentele unui graf, matching-ul grafurilor named selectate in
+clauze de tipul "from named" etc. Modificarile solutiilor (M) permit ordonarea 
+variabilelor pe care se face match, limitarea si offsetul pentru impunerea de 
+restrictii a numarului de solutii luate in considerare ca rezultat.
+    In componenta head, SPARQL permite specificarea a una din patru forme de query.
+Fiecare forma este asociata unui rezultat specific, ce reprezinta un view asupra
+solutiilor mecanismului de "pattern matching". Cele mai uzuale forme de query(CSA) 
+sunt construct, select si ask. Query-ul describe poate fi folosit pentru a obtine
+resursele describe ale unui graf RDF. Query-ul construct primeste ca parametru un
+template folosit pentru traducere intre formate RDF diferite. Query-ul select este 
+folosit pentru a extrage legaturile dintre variabilele grafului mentionate la partea
+where. Query-ul ask returneaza true daca exista un binding pentru patternul grafului
+furnizat, sau false altfel.
+Un exemplu pentru un query SPARQL select ce returneaza toate numele
+?names ale prietenilor ?friends cunoscute de persoanele ?persons:
+    
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+select ?name
+from <http://www.mat.unical.it/˜ianni/foaf.rdf>
+from <http://www.postsubmeta.net/foaf.rdf>
+from <http://www.polleres.net/foaf.rdf>
+where {
+?person foaf:knows ?friend .
+?friend foaf:name ?name .
+}
+
+    O vedere schematica a SPARQL:
+
+Prologue:   P prefix prefix: <namespace-URI>
+Head:       C construct f template g or
+            S select variable list or
+            A ask
+Body:       D from / from named <dataset-URI>
+            W where f pattern g
+            M order by expression
+            limit integer > 0
+            offset integer > 0
+            
+
+
+
+
+    
+    
+	

@@ -1,0 +1,21 @@
+Contemporary ontologies share many structural similarities, regardless of the language in which they are expressed. As mentioned above, most ontologies describe individuals (instances), classes (concepts), attributes, and relations. In this section each of these components is discussed in turn.
+
+Common components of ontologies include:
+
+Individuals
+Instances or objects (the basic or "ground level" objects)
+Classes
+Sets, collections, concepts, classes in programming, types of objects, or kinds of things
+Attributes
+Aspects, properties, features, characteristics, or parameters that objects (and classes) can have
+Relations
+Ways in which classes and individuals can be related to one another
+Function terms
+Complex structures formed from certain relations that can be used in place of an individual term in a statement
+Restrictions
+Formally stated descriptions of what must be true in order for some assertion to be accepted as input
+Rules
+Statements in the form of an if-then (antecedent-consequent) sentence that describe the logical inferences that can be drawn from an assertion in a particular form
+Axioms
+Assertions (including rules) in a logical form that together comprise the overall theory that the ontology describes in its domain of application. This definition differs from that of "axioms" in generative grammar and formal logic. In those disciplines, axioms include only statements asserted as a priori knowledge. As used here, "axioms" also include the theory derived from axiomatic statements.
+Ontologies are commonly encoded using ontology languages.

@@ -1,0 +1,17 @@
+Ontology -> A set of concepts and categories in a subject area or domain that shows their properties and the relations between them
+OWL (Ontology Web Language) -> OWL is a language for making ontological statements, developed as a follow-on from RDF and RDFS,
+ as well as earlier ontology language projects including OIL, DAML, and DAML+OIL. OWL is intended to be used over the World Wide Web,
+ and all its elements (classes, properties and individuals) are defined as RDF resources, and identified by URIs.
+
+Example:
+<!-- OWL Class Definition - Head -->
+<owl:Class rdf:about="...">
+	<rdfs:label>The Head part</rdfs:label>
+</owl:Class>
+
+<!-- OWL Subclass Definition - Mouth-->
+<owl:Class rdf:about="...">
+	<!-- Mouth is a subclassification of Head -->
+	<rdfs:subClassOf rdf:resource="-Head about-"/>
+	<rdfs:label>The lower head part</rdfs:label>
+</owl:Class>

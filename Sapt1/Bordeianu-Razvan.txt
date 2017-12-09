@@ -1,0 +1,50 @@
+ONTOLOGIE = Latură a materialismului dialectic care se referă la determinările și la structura realității obiective
+Ontologia = teorie privitoare la existență
+
+O ontologie reprezintă conceptualizarea unui domeniu de cunoaștere într-un format destinat a fi procesat de calculator, 
+format modelând entități, atribute, relații și axiome.
+ 
+După scopul & contextul utilizării:
+	ontologii specializate
+	biologie (GO – Gene Ontology)
+	comerț electronic (GoodRelations)
+	muzică (MO – Music Ontology)
+	ontologia proceselor (serviciilor Web) OWL-S,etc.
+	
+	Web Ontology Language (OWL)
+scop: facilitarea interpretării de către software a conținutului informațional
+utilizează modelul RDF și RDF Schema
+
+Sintaxă: documente RDF [se folosesc formate precum RDF/XML sau Turtle]
+
+O ontologie OWL este compusă în principal din: clase, proprietăți, relații:
+
+	*O clasă se specifică prin owl:Class desemnează colecții de indivizi – obiecte
+		EX: Relația de derivare a claselor se exprimă via rdfs:subClassOf de la RDF Schema
+		<!-- OWL Subclass Definition - Leg -->
+		<owl:Class rdf:about="...">
+			<!-- Leg is a subclassification of body part -->
+			<rdfs:subClassOf rdf:resource="-body part-"/>
+			<rdfs:label>The bottom body part</rdfs:label>
+		</owl:Class>
+		
+	*OWL: specificarea proprietăților
+		EX:<owl:ObjectProperty rdf:ID="stocat">
+				<rdfs:domain rdf:resource="#Multimedia" />
+				<rdfs:range rdf:resource="#SitMultimedia" />
+			</owl:ObjectProperty>
+			
+	*OWL: specificarea indivizilor
+		EX:	<!-- definim individul -->
+			<owl:Thing rdf:ID="the_wall">
+				<rdfs:comment xml:lang="ro">
+				Un film de Pink Floyd</rdfs:comment>
+				</owl:Thing>
+				<!-- ulterior, specificăm tipul lui (plus proprietăți/meta-date) -->
+				<owl:Thing rdf:about="#the_wall">
+				<rdf:type rdf:resource="#Video"/>
+			</owl:Thing>
+			
+	
+			
+	

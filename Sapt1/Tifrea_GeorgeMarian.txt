@@ -1,0 +1,61 @@
+Ontologie = defineste un set de reprezentari prin care se modeleaza un domeniu al cunoasterii;
+
+RDF (Resource Description Framework) = este un tuplu prin care este realizata descrierea unei relatii dintre 
+un subiect si un obiect, cu ajutorul unui predicat. Formatul acestuia este: (subiect,predicat,obiect);
+
+OWL (Ontology Web Language) = este o extensie a RDF 
+
+Exemplu:
+    <owl:Class rdf:about="http://purl.org/sig/ont/fma/fma27649">
+        <rdfs:label xml:lang="en">Adipose layer of superficial fascia of male perineum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/sig/ont/fma/fma20416"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/sig/ont/fma/regional_part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/sig/ont/fma/fma20722"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://purl.org/sig/ont/fma/fma27650"/>
+        <FMAID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27649</FMAID>
+        <preferred_name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adipose layer of superficial fascia of male perineum</preferred_name>
+        <synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatty layer of superficial fascia of male perineum</synonym>
+        <synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subcutaneous tissue of male perineum</synonym>
+        <synonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tela subcutanea of urogenital part of male perineum</synonym>
+    </owl:Class>
+    <owl:Axiom>
+        <modification rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fri Apr 30 14:11:43 PDT 1999</modification>
+        <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JOSE MEJINO, MD</author>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subcutaneous tissue of male perineum</owl:annotatedTarget>
+        <authority rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terminologia Anatomica 1998</authority>
+        <Date_entered_modified rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wed Sep 15 10:57:08 PDT 2004</Date_entered_modified>
+        <owl:annotatedSource rdf:resource="http://purl.org/sig/ont/fma/fma27649"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/sig/ont/fma/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AUGUSTO V. AGONCILLO, MD</author>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adipose layer of superficial fascia of male perineum</owl:annotatedTarget>
+        <modification rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mon Dec 20 13:39:54 PST 1999</modification>
+        <authority rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rosse MD</authority>
+        <Date_entered_modified rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thu May 12 14:32:09 GMT-08:00 2005</Date_entered_modified>
+        <owl:annotatedSource rdf:resource="http://purl.org/sig/ont/fma/fma27649"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/sig/ont/fma/preferred_name"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JOSE MEJINO, MD</author>
+        <authority rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rosse MD</authority>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tela subcutanea of urogenital part of male perineum</owl:annotatedTarget>
+        <modification rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tue Dec 21 15:41:00 PST 1999</modification>
+        <Date_entered_modified rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wed Sep 15 10:57:24 PDT 2004</Date_entered_modified>
+        <owl:annotatedSource rdf:resource="http://purl.org/sig/ont/fma/fma27649"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/sig/ont/fma/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fatty layer of superficial fascia of male perineum</owl:annotatedTarget>
+        <author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JOSE MEJINO, MD</author>
+        <authority rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rosse MD</authority>
+        <modification rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thu Apr 29 17:02:53 PDT 1999</modification>
+        <Date_entered_modified rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thu May 12 14:32:09 GMT-08:00 2005</Date_entered_modified>
+        <owl:annotatedSource rdf:resource="http://purl.org/sig/ont/fma/fma27649"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/sig/ont/fma/synonym"/>
+    </owl:Axiom>
+

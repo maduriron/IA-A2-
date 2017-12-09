@@ -1,0 +1,31 @@
+- Ontologie: model folosit pentru a descrie diferite domenii, cu ajutorul unor multimi de concepte, proprietati si relatii intre ele.
+- Resource Description Framework (RDF): este un framework folosit pentru reprezentarea informatiilor despre anumite resurse sub forma de graf. Informatia se reprezinta sub forma de triplete subiect-predicat-obiect.
+- RDF Schema (RDFS) extinde vocabularul RDF pentru a permite descrierea taxonomiilor
+- The Web Ontology Language OWL extinde RDF si RDFS
+ Exempu de OWL:
+
+<rdf:RDF
+
+	<owl:Ontology rdf:about="">
+    	<rdfs:comment>Exemplu de ontologie</rdfs:comment>
+    	<rdfs:label>Domeniul medical</rdfs:label>
+  	</owl:Ontology>
+
+  	<owl:Class rdf:about="...">
+		<rdfs:label>Oase</rdfs:label>
+		<rdfs:comment>Clasa tuturor tipurilor de oase</rdfs:comment>
+	</owl:Class>
+
+	<owl:Class rdf:about="...">
+		<rdfs:subClassOf rdf:resource="{referinta la clasa "Oase"}"/>
+		<rdfs:label>Oase lungi</rdfs:label>
+	</owl:Class>
+
+	<rdf:Description rdf:about="...">
+		<rdf:type rdf:resource="{referinta la clasa "Oase lungi"}"/>
+		<rdfs:label>Humerus</rdfs:label>
+	</rdf:Description>
+
+</rdf:RDF>
+
+- Generarea de fraze se poate face cu ajutorul retelelor neuronale, care depasesc alti algoritmi de machine learning prin faptul ca se folosesc de asa-numitele straturi ascunse (hidden layers), care ajuta la crearea unei multimi mai complicate de caracteristici (features) => o acuratete a predictiei mai mare

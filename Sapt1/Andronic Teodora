@@ -1,0 +1,40 @@
+	- ONTOLOGIE
+	O ontologie reprezintă o descriere a conceptelor şi a relatiilor ce sunt stabilite între
+acestea pentru a servi unui agent sau unei comunităti de agenti. Scopul ontologiei
+este definirea regulilor formale care să permită unei comunităti de agenti să
+interpreteze în acelaşi mod un segment al realitătii (deci al existentei).
+	O ontologie descrie cele mai importante concepte si relatii dintr-un naumit domeniu. 
+	Ofera un vocabular pentru un domeniu si o specificatie computerizata pentru vocabularul respectiv.
+	O caracteristică frecventă a ontologiilor este reprezentată de faptul că sunt formale.
+
+	- RDF
+	RDF (Resource Description Framework) este un limbaj bazat pe sintaxa XML ce utilizează un model
+ de reprezentare a grafurilor pentru a exprima fapte despre resurse identificate prin URI-uri (Uniform Resource Identifier).
+	Elementul de bază al unui document RDF este tripletul. Un triplet este o propoziŃie ce are un subiect, predicat şi un obiect (proprietate). 
+	Subiectul şi predicatul sunt resurse identificate prin URI-uri, iar obiectul poate fi o resursă sau o valoare efectivă.
+	
+	- OWL
+	OWL (Web Ontology Language) este un limbaj conceput pentru a defini ontologii. 
+	Este un limbaj care extinde RDF, permitând folosirea unor instrumente de inferenta pe datele din ontologie.
+	O ontologie OWL este construita din Indivizi, Proprietati si Clase.
+	
+	
+	- EXEMPLU
+	owl:Class>
+  <owl:intersectionOf   rdf:parseType="Collection">
+	<owl:Class   rdf:about="#Person"/>
+	<owl:Restriction>
+	      <owl:onProperty   rdf:resource="#hasChild"/>
+	          <owl:allValuesFrom>
+		       <owl:unionOf   rdf:parseType="Collection">
+		           <owl:Class rdf:about="#Doctor"/>
+		           <owl:Restriction>
+		    	  <owl:onProperty  rdf:resource="#hasChild"/>
+			  <owl:someValuesFrom  rdf:resource="#Doctor"/>
+		           </owl:Restriction>
+		       </owl:unionOf>
+		 </owl:allValuesFrom>
+	</owl:Restriction>
+  </owl:intersectionOf>
+</owl:Class>
+	
