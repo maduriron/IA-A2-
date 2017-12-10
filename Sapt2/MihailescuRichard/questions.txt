@@ -1,0 +1,70 @@
+	Generare de întrebãri predictive în limbajul natural pentru ontologia din imagine
+generate natural language. Subdomeniul "Movies and Cinemas" poate fi generalizat pentru 
+orice domeniu ce are la bazã turismul.
+
+Q: What isInSite Cinema and hasPrice TicketPrice?
+A: MovieShow;
+
+Q: What hasDirector, hasProducer and is subClassOf EventContent?
+A: Movie;
+
+Q: What hasRoomFacility?
+A: CinemaRoom;
+
+Q: What has startDate and has endDate?
+A: DatePeriod;
+
+Q: What has description and has genre?
+A: Movie;
+
+Q: What ticket price has?
+A: priceType, priceValue;
+
+Q: What has site facility?
+A: Cinema;
+
+Q: What is a Cinema?
+A: Site;
+
+Q: What has startTime?
+A: TimePeriod;
+
+Q: What is a MovieShow?
+A: Event;
+
+Exemple de SPARQL queries pentru exemplul de mai sus (parantezele pãtrate repr. numele 
+entitã?ilor( ex. movie genre, movie name) definite în domeniul ontologiei, ce vor fi 
+completate cu valori reale de utilizatori:
+
+T1-1: What is the name of the movie which has the genre
+[genre_value]?
+
+SELECT ?movieName
+WHERE {
+?Movie prefix:name ?movieName.
+?Movie prefix:genre “[genre_value]”^^<xsd:string>. }
+
+
+T2-1: What is the genre of [Movie_name]?
+
+SELECT ?genreValue
+WHERE {
+?Movie prefix:name “[Movie_name]”^^<xsd:string>.
+?Movie prefix:genre ?genreValue. }
+
+
+T2-2: What is the street of [Cinema_name]?
+T2-3: What is the postal code of [Cinema_name]?
+T2-4: Where is the destination of [Cinema_name]?
+T2-5: What is the postal address of [Cinema_name]?
+
+SELECT ?streetValue ?postalCodeValue ?DestinationName
+WHERE {
+?Cinema prefix:name “[Cinema_name]”^^<xsd:string>.
+?Cinema prefix:hasPostalAddress ?PostalAddress.
+?PostalAddress prefix:street ?streetValue.
+?PostalAddress prefix:postalCode ?postalCodeValue.
+?PostalAddress prefix:isInDestination ?Destination.
+?Destination prefix:name ?DestinationName. }
+
+
