@@ -1,0 +1,10 @@
+1.What does toxicity cause?
+  Toxicity causes HealthEffects
+2.What are the component parts of a system?
+  The Organs are the components of a system.
+3.What affects a system?
+  A system is affected by HealtEffects.
+4.What is a healtEffect afflicting?
+  A HealthEffect is afflicting organs
+5.What is the end-point of toxicity?
+  The system is the end-point of toxicity.

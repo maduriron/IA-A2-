@@ -1,0 +1,28 @@
+Exemple de intrebari avand la baza ontlogia din imagine:
+
+Intrebare: What is treated_by doctor, what takes medication and has a test? 
+Raspuns: Patient;
+
+Intrebare: What is treated_by doctor? 
+Raspuns: Patient;
+
+Intrebare: What take medication? 
+Raspuns: Patient;
+
+Intrebare: What contains a test?
+Raspuns: Measurement;
+
+Intrebare: What has measurement? 
+Raspuns: Value;
+
+Intrebare: What patient has? 
+Raspuns: Disease;
+
+Intrebare: What test has? 
+Raspuns: Data;
+
+Intrebare: What TestA contains?
+Raspuns: MeasurementA;
+
+Intrebare: What TestB contains?
+Raspuns: MeasurementB;

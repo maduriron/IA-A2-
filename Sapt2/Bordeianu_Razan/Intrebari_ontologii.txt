@@ -1,0 +1,47 @@
+Intrebari pentru ontologia "Host infections and pathogen transmission for brucellosis":
+
+Q:What is "B.abortus"?
+A: B.abortus is a infection cause by a type of bacteria called Brucella.
+
+Q:How is realised zoonotic disposition?
+A: By a process of establishing B.abrotus infection.
+
+Q:How is a person infected?
+A:A brucellosis human patient is infected via drinking the unpasteurized Brucella-contaminated milk produced by a Brucella-infected process.
+
+Intrebari pentru ontologia "Brucella undulant fever process"
+
+Q:What is the normal termperature?
+A: 37.1 C
+
+Q:Which are the parts of the process of diurnal variation of temperature?
+A:Temperature elevation in the afternoon and temperature staying normal in the morning.
+
+Q:What is a quality of brucellosis human patient?
+A:Human brucellosis symptom.
+
+Intrebari pentru ontologia "Brucella virulence factors and pathogenesis"
+
+Q:What is "Brucella protein virulence factor" ?
+A: Brucella protein and Brucella virulence factor.
+
+Q:Where is realized  Brucella virulence factor disposition?
+A:In the process of establishing Brucella infection in macrophages.
+
+Q:What is Brucella VirB1?
+A:A subtype of Brucella protein.
+
+Intrebari pentru ontologia "Brucellosis diagnosis using PCR test"
+
+Q:A 'part-whole' relation is used in two different types of entities.Which are these?
+A:MP-2 gene as part of B. abortus genome, which is part of the B. abortus AND the OMP-2 gene sequence data as part of B. abortus genome sequence data.
+
+Intrebari pentru ontologia "Brucella intentional release"
+
+Q:What is  Brucella intentional release?
+A: Planned process.
+
+Q:What is the role of the aerosolized Brucella?
+A:Bioterrorism agent role.
+
+
