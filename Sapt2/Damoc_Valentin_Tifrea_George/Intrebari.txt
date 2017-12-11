@@ -1,0 +1,32 @@
+Exemple de intrebari pentru ontologia aleasa
+
+
+Intrebare: How is Yellow Fever prevented?
+Raspuns: Vaccine and Mosquito control.
+
+Intrebare: How is Initial phase seen?
+Raspuns: Sudden onset of fever, headache, nausea, myalgia.
+
+Intrebare: What is epidemiology of Yellow Fever?
+Raspuns: Case fatality is 20% and the specific regions are Tropical South America and Tropical Africa.
+
+Intrebare: What is vaccince?
+Raspuns: The vaccine is a live attenuated.
+
+Intrebare: What is presentation of Yellow Fever?
+Raspuns: The presentations are : Initial phase and complications
+
+Intrebare: What is Incubation period followed by?
+Raspuns: Initial phase.
+
+Intrebare: What is Initial phase followed by?
+Raspuns: Later phase.
+
+Intrebare: What is Later phase leadding to?
+Raspuns: Jaundice and vascular endothelium of liver tissue.
+
+Intrebare: How is Jungle cycle spreaded?
+Raspuns: Mosquito bites human, bites mokey. Another mosquito bites monkey and transfers to human.
+
+Intrebare: How is Urban Cycle spreaded?
+Raspuns: Mosquito bites human and another mosquito bites infected human and transfers it to another uninfected human.
