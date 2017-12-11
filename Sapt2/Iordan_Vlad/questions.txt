@@ -1,0 +1,15 @@
+Q: What does Medical condition use?
+A: Physiological parameter.
+
+Q: What does Blood presure use?
+A: Currentvalue, MinValue, MaxValue.
+
+Q: What Medical Condition provide?
+A: Report.
+
+Q: What Patient report?
+A: Medical Condition.
+
+Q: What Physiological parameter monitor?
+A: ElectrodernabActivity, MuscleActivity, RespirationRate, BloodPressure.
+
