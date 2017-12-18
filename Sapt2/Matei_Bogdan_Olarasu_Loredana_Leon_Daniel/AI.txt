@@ -1,0 +1,31 @@
+Abstract:
+
+A medical ontology may be used for computer assisted clinical decision support. 
+Multi-level and/or semantically grouped medical ontology is incorporated into a machine learning algorithm. 
+The resulting machine-learnt algorithm outputs information to assist in clinical decisions. 
+For example, a patient record is input to the algorithm. Based on the incorporated medical ontology, similarities are aggregated in different groups. 
+An aggregate similarity of at least one group is a function of an aggregate similarity of at least another group. 
+One or more similar patients and/or outcomes are identified based on similarity. Probability based outputs may be provided.
+
+
+Machine learning algorithms are applied in order to extract useful knowledge in different problem domains by searching for interesting patterns (dependencies) 
+in large volumes of data. The principle of instance (patient) similarity is the basis for many machine learning algorithms. 
+The main assumption in supervised, unsupervised and semi-supervised machine learning algorithms is that the instances of the same class (cluster) 
+are more similar to each other than the instances of different classes (clusters).
+
+OntoNLQA: A method for Ontology-Based Question answering on Biomedical RDF data
+
+->querying RDF data annotated using ontologies which allows posing questions in natural language. 
+OntoNLQA offers five steps in order to answer natural language questions.
+
+SparQL -> RDF query language 
+
+Ex.
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+SELECT 
+	?diseaseName 
+WHERE
+  {
+    ?disease  a          foaf:Disease .
+    ?disease  foaf:diseaseName  ?diseaseName .
+  }

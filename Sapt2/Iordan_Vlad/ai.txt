@@ -1,0 +1,25 @@
+Onthology Architecture
+
+BODY AREA NETWORK
+
+The gateway is the core element of the proposed system and can be implemented on a personal 
+digital assistant (PDA), cell phone, or home personal computer. It controls the sensor network
+ handling the sensor registration (type and number of sensors), initialization (e.g., specify sampling 
+frequency and mode of operation), customization (e.g., run user specific calibration or user-specific
+ signal processing procedure upload) as well as the dynamical configuration of the sensor network 
+according to the service’s needs. It also has the responsibility to communicate the acquired information
+ to the HCC, as well as the actions that must be fulfilled by the system, so that the delivered service 
+adapts to the context and the requirements of the patient. The BAN’s gateway encapsulates a variety of processes, such as:
+
+ - data acquisition of the above mentioned heterogeneous sources,
+
+ - local storing and communicating of the acquired data with the HCC,
+
+ - local evaluation of the acquired data and deduction of the patient’s medical condition in case of interruption of the communication connection,
+
+ - patients’ self-evaluation through a proper GUI (Graphical Unit Interface), as well as channelling of advices or commands from the HCC, and
+
+ - determination of a group of events (within the BAN), which occurrence indicates the patient’s current medical condition.
+
+
+IF {HeartRateFrequency > 1,5*HRFavgAND  BloodPressure > 1,4*BPavg}  THEN {STRESS  LEVEL = 'VERY HIGH' }

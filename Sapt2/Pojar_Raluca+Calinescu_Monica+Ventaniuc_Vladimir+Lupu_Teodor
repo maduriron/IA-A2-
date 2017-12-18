@@ -1,0 +1,63 @@
+https://github.com/wordnet/wordnet - are si exemple si scrie ce si cum functioneaza
+https://github.com/clips/pattern - are exemplu 
+http://stevenloria.com/tutorial-wordnet-textblob/
+http://www.nltk.org/book/ch02.html
+
+
+
+Existing methods:
+
+- Frequency-based methods - Text-to-Onto
+- use syntactic patterns and extract concepts matching the patterns
+-use wordNet - start from a base word list, for each w in the list , add the hypernyms and hyponyms in WordNet to the list
+
+WORDNET - general lexical knowledge base that contains 150.000 words(noun verb,adj..)
+		- a word can have multiple senses
+		- each concept is represented by a set of synonyms
+		- semantic relations such as hypernym / antonym / meronym of a syn-set are represented
+
+WordNet is a database of English words that are linked together by their semantic relationships. It is like a supercharged dictionary/thesaurus with a graph structure.
+
+background voting domani - contain more than 10.000 words - pre-processing produced 768 distinct noun phrases
+
+Background: Text Processing
+
+Many local election officials and voting machine companies are fighting paper trails, in part
+because they will create more work and will raise difficult questions if the paper and electronic
+tallies do not match. 
+
+POS Tagging:  Many/JJ local/JJ election/NN officials/NNS and/CC voting/NN machine/NN companies/NNS are/VBP fighting/VBG paper/NN trails,/NN in/IN part/NN because/IN they/PRP will/MD create/VB more/JJR work/NN and/CC will/MD raise/VB difficult/JJ questions/NNS if/IN the/DT paper/NN and/CC electronic/JJ tallies/NNS do/VBP not/RB match./JJ
+
+NP Chuking: [ Many/JJ local/JJ election/NN officials/NNS ] and/CC [ voting/NN machine/NN companies/NNS ] are/VBP fighting/VBG [ paper/NN trails,/NN ] in/IN [ part/NN ] because/IN [ they/PRP ] will/MD create/VB [ more/JJR work/NN ] and/CC will/MD raise/VB [ difficult/JJ questions/NNS ] if/IN [ the/DT paper/NN ] and/CC [ electronic/JJ tallies/NNS ] do/VBP not/RB [ match./JJ]
+
+Stopword Elimination:  local/JJ election/NN officials/NNS, voting/NN machine/NN companies/NNS ,  paper/NN trails,/NN, part/NN, work/NN,  difficult/JJ questions/NNS,   paper/NN,  electronic/JJ tallies/NNS, match./JJ
+
+Morphological Analysis: local election official, voting machine company, paper trail, part, work, difficult question, paper, electronic tally
+
+
+WNSCA + {PE, POP}
+
+Take top n% of NP, and select only those with less than 4 senses in WordNet ==>  obtain  T, a set of noun phrases
+
+Make a base list L of words from T
+
+PE: add to T, any noun phrase np from NP, if the head-word (ending word) in np is in L
+
+POP: add to T, any noun phrase np from NP, if some word in np is in L
+
+
+TF*IDF: Term Frequency Inverted Document Frequency
+
+TF * IDF(t-ij) = f-ij * Log |D| / |Di| 
+
+
+|D|:  total number of documents
+|Di|: total number of documents containing term ti
+TF*IDF(tij): TF*IDF measure for term ti in document dj
+ fij:    frequency of term ti in document dj
+
+
+3 techniques for taxonomy extraction
+Compound term heuristic: “voting machine” is a machine
+WordNet-based method – needs word sense disambiguation (WSD)
+Supervised learning (Naive-Bayes) for semantic class labeling (SCL) of concepts
