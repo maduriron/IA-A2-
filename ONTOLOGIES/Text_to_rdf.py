@@ -129,4 +129,9 @@ def to_rdf(list):
     return tostring(rdf)
 
 
-print(to_rdf(parseXMLOutput()))
+# print(to_rdf(parseXMLOutput()))
+
+
+fd = open("Generated_rdf.xml", "wb")
+fd.write(b"<?xml version='1.0' encoding='utf-8'?>\n")
+fd.write(to_rdf(parseXMLOutput()))
