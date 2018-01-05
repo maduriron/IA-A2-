@@ -52,7 +52,7 @@ def list_to_text(list):
 def parseXMLOutput():
     return_list = []
     """Aici se pune(momentan) textul pe care dorim sa il transformam in ontologie"""
-    text_to_be_transformed = """Stabilirea nivelului compresiunii este un criteriu clinic esenţial în vederea centrării explorării neuro-radiologice şi imagistice. Stabilirea nivelului se face pe baza găsirii dermatomului cel mai înalt cu sensibilitatea alterată, a nivelului motor, ambele corelate la topografia radiculo-vertebrală."""
+    text_to_be_transformed = """Fluxul sanguin cerebral este asigurat prin cele două artere carotide interne şi de cele două artere vertebrale care se unesc în trunchiul vertebrobazilar. Ramificaţiile intracraniene ale acestor artere sunt de tip terminal ceea ce conferă o gravitate crescută ocluziilor vasculare cerebrale."""
     #Apelam functia de mai sus care ne parseaza texul si il tokenizeaza
 
     callback_result_from_Parser = test_Fdg_Parser(text_to_be_transformed)
@@ -99,9 +99,34 @@ def parseXMLOutput():
                 if new_list[i][j][k][1] == 'n.pred.' or new_list[i][j][k][1] == 'c.d.' or new_list[i][j][k][1] == 'a.adj.' or new_list[i][j][k][1] == 'coord.' or new_list[i][j][k][1] == 'a.subst.' or new_list[i][j][k][1] == 'prep.':
                     obiect = new_list[i][j]
         ret.append((subiect,predicat,obiect))
-    for i in range(0,len(ret)):
-        print(ret[i])
-    return new_list
+    return ret
 
-x = parseXMLOutput()
 
+
+
+def to_rdf(list):
+    #Functie care duce tuplul nostru creat mai sus intr-un format rdf corespunzator
+    rdf = ET.Element('rdf:RDF')
+    rdf.set("xmlns:rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#")
+    rdf.set("xmlns:dc", "http://purl.org/dc/elements/1.1/")
+    for value in list:
+        if(value[0][0] != None and value[1][0] != None and value[2][0] != None):
+            subiect = ""
+            for element_lista_subiect in value[0]:
+                subiect += element_lista_subiect[0] + " "
+            adjectiv = ""
+            for element_lista_adjectiv in value[2]:
+                adjectiv += element_lista_adjectiv[0] + " "
+
+            rdf_description = ET.SubElement(rdf, 'rdf:Description')
+            rdf_subject = ET.SubElement(rdf_description, 'rdf:' + value[0][0][1])
+            rdf_subject.text = subiect.rstrip()
+            rdf_predicate = ET.SubElement(rdf_description, 'rdf:' + value[1][0][1])
+            rdf_predicate.text = value[1][0][0]
+            rdf_object = ET.SubElement(rdf_description, 'rdf:' + value[2][0][1])
+            rdf_object.text = adjectiv.rstrip()
+
+    return tostring(rdf)
+
+
+print(to_rdf(parseXMLOutput()))
