@@ -52,7 +52,7 @@ def list_to_text(list):
 def parseXMLOutput():
     return_list = []
     """Aici se pune(momentan) textul pe care dorim sa il transformam in ontologie"""
-    text_to_be_transformed = """Fluxul sanguin cerebral este asigurat prin cele două artere carotide interne şi de cele două artere vertebrale care se unesc în trunchiul vertebrobazilar. Ramificaţiile intracraniene ale acestor artere sunt de tip terminal ceea ce conferă o gravitate crescută ocluziilor vasculare cerebrale."""
+    text_to_be_transformed = """Neurochirurgia este o ramură a ştiinţelor medicale."""
     #Apelam functia de mai sus care ne parseaza texul si il tokenizeaza
 
     callback_result_from_Parser = test_Fdg_Parser(text_to_be_transformed)
@@ -62,6 +62,7 @@ def parseXMLOutput():
     for phrase in root:
         current_list = []
         for child in phrase:
+            child.attrib["text"] = child.text
             if 'POS' in child.attrib and child.attrib['POS'] == 'VERB' or child.attrib["deprel"] == "ROOT":
                 current_list.append([child.attrib])
                 connected_words = connectionsBetweenWords(phrase, child.attrib["id"])
@@ -78,7 +79,7 @@ def parseXMLOutput():
         for j in range(0,len(return_list[i])):
             lista = []
             for x in range(0,len(return_list[i][j])):
-                lista.append((return_list[i][j][x]["LEMMA"],return_list[i][j][x]["deprel"],return_list[i][j][x]["id"]))
+                lista.append((return_list[i][j][x]["text"],return_list[i][j][x]["deprel"],return_list[i][j][x]["id"]))
             lista  = sorted(lista,key=lambda tup: tup[2])
             prop.append(lista)
         new_list.append(prop)
@@ -100,7 +101,6 @@ def parseXMLOutput():
                     obiect = new_list[i][j]
         ret.append((subiect,predicat,obiect))
     return ret
-
 
 
 
