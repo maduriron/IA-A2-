@@ -1,2 +1,222 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description><rdf:sbj.>Neurochirurgia</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:det.>o ramur&#259; a &#351;tiin&#355;elor medicale</rdf:det.></rdf:Description></rdf:RDF>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Corpul uman</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>trunchi &#537;i membre
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Corpul uman</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>trunchi &#537;i membre
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Capul , &#238;mpreuna cu g&#226;tul</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:det.>a corpului extremitatea cefalic&#259;
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Corpul uman</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>trunchi &#537;i membre
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Capul , &#238;mpreuna cu g&#226;tul</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:det.>a corpului extremitatea cefalic&#259;
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Capul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:n.pred.>alc&#259;tuit din cutia cranian&#259; &#537;i fa&#539;&#259;
+</rdf:n.pred.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Corpul uman</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>trunchi &#537;i membre
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Capul , &#238;mpreuna cu g&#226;tul</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:det.>a corpului extremitatea cefalic&#259;
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Capul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:n.pred.>alc&#259;tuit din cutia cranian&#259; &#537;i fa&#539;&#259;
+</rdf:n.pred.></rdf:Description><rdf:Description><rdf:sbj.>G&#226;tul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>paratiroide
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Corpul uman</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>trunchi &#537;i membre
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Capul , &#238;mpreuna cu g&#226;tul</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:det.>a corpului extremitatea cefalic&#259;
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Capul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:n.pred.>alc&#259;tuit din cutia cranian&#259; &#537;i fa&#539;&#259;
+</rdf:n.pred.></rdf:Description><rdf:Description><rdf:sbj.>G&#226;tul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>paratiroide
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Trunchiul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>abdomen &#537;i pelvis
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Corpul uman</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>trunchi &#537;i membre
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Capul , &#238;mpreuna cu g&#226;tul</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:det.>a corpului extremitatea cefalic&#259;
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Capul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:n.pred.>alc&#259;tuit din cutia cranian&#259; &#537;i fa&#539;&#259;
+</rdf:n.pred.></rdf:Description><rdf:Description><rdf:sbj.>G&#226;tul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>paratiroide
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Trunchiul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>abdomen &#537;i pelvis
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Corpul uman</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>trunchi &#537;i membre
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Capul , &#238;mpreuna cu g&#226;tul</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:det.>a corpului extremitatea cefalic&#259;
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Capul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:n.pred.>alc&#259;tuit din cutia cranian&#259; &#537;i fa&#539;&#259;
+</rdf:n.pred.></rdf:Description><rdf:Description><rdf:sbj.>G&#226;tul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>paratiroide
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Trunchiul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>abdomen &#537;i pelvis
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Cavitatea toracic&#259;</rdf:sbj.><rdf:aux.>este</rdf:aux.><rdf:prep.>mu&#537;chi numit diafragm&#259; printr- un
+</rdf:prep.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Corpul uman</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>trunchi &#537;i membre
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Capul , &#238;mpreuna cu g&#226;tul</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:det.>a corpului extremitatea cefalic&#259;
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Capul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:n.pred.>alc&#259;tuit din cutia cranian&#259; &#537;i fa&#539;&#259;
+</rdf:n.pred.></rdf:Description><rdf:Description><rdf:sbj.>G&#226;tul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>paratiroide
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Trunchiul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>abdomen &#537;i pelvis
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Cavitatea toracic&#259;</rdf:sbj.><rdf:aux.>este</rdf:aux.><rdf:prep.>mu&#537;chi numit diafragm&#259; printr- un
+</rdf:prep.></rdf:Description><rdf:Description><rdf:prep.>inferior de diafragma perineal&#259;</rdf:prep.><rdf:ROOT>continu&#259;</rdf:ROOT><rdf:prep.>inferior de diafragma perineal&#259;
+</rdf:prep.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Corpul uman</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>trunchi &#537;i membre
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Capul , &#238;mpreuna cu g&#226;tul</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:det.>a corpului extremitatea cefalic&#259;
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Capul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:n.pred.>alc&#259;tuit din cutia cranian&#259; &#537;i fa&#539;&#259;
+</rdf:n.pred.></rdf:Description><rdf:Description><rdf:sbj.>G&#226;tul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>paratiroide
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Trunchiul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>abdomen &#537;i pelvis
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Cavitatea toracic&#259;</rdf:sbj.><rdf:aux.>este</rdf:aux.><rdf:prep.>mu&#537;chi numit diafragm&#259; printr- un
+</rdf:prep.></rdf:Description><rdf:Description><rdf:prep.>inferior de diafragma perineal&#259;</rdf:prep.><rdf:ROOT>continu&#259;</rdf:ROOT><rdf:prep.>inferior de diafragma perineal&#259;
+</rdf:prep.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Corpul uman</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>trunchi &#537;i membre
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Capul , &#238;mpreuna cu g&#226;tul</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:det.>a corpului extremitatea cefalic&#259;
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Capul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:n.pred.>alc&#259;tuit din cutia cranian&#259; &#537;i fa&#539;&#259;
+</rdf:n.pred.></rdf:Description><rdf:Description><rdf:sbj.>G&#226;tul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>paratiroide
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Trunchiul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>abdomen &#537;i pelvis
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Cavitatea toracic&#259;</rdf:sbj.><rdf:aux.>este</rdf:aux.><rdf:prep.>mu&#537;chi numit diafragm&#259; printr- un
+</rdf:prep.></rdf:Description><rdf:Description><rdf:prep.>inferior de diafragma perineal&#259;</rdf:prep.><rdf:ROOT>continu&#259;</rdf:ROOT><rdf:prep.>inferior de diafragma perineal&#259;
+</rdf:prep.></rdf:Description><rdf:Description><rdf:comp.>Cele ; por&#539;iunea lor liber&#259; are trei segment : bra&#539; , superioare antebra&#539; &#537;i m&#226;n&#259; ; cele inferioare se leag&#259; de trunchi se prin centura pelvian&#259; , &#537;i por&#539;iunea lor libera leag&#259; de trunchi prin centura scapular&#259;</rdf:comp.><rdf:sbj.>leag&#259;</rdf:sbj.><rdf:coord.>gamb&#259; &#537;i picior
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Corpul uman</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>trunchi &#537;i membre
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Capul , &#238;mpreuna cu g&#226;tul</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:det.>a corpului extremitatea cefalic&#259;
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Capul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:n.pred.>alc&#259;tuit din cutia cranian&#259; &#537;i fa&#539;&#259;
+</rdf:n.pred.></rdf:Description><rdf:Description><rdf:sbj.>G&#226;tul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>paratiroide
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Trunchiul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>abdomen &#537;i pelvis
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Cavitatea toracic&#259;</rdf:sbj.><rdf:aux.>este</rdf:aux.><rdf:prep.>mu&#537;chi numit diafragm&#259; printr- un
+</rdf:prep.></rdf:Description><rdf:Description><rdf:prep.>inferior de diafragma perineal&#259;</rdf:prep.><rdf:ROOT>continu&#259;</rdf:ROOT><rdf:prep.>inferior de diafragma perineal&#259;
+</rdf:prep.></rdf:Description><rdf:Description><rdf:comp.>Cele ; por&#539;iunea lor liber&#259; are trei segment : bra&#539; , superioare antebra&#539; &#537;i m&#226;n&#259; ; cele inferioare se leag&#259; de trunchi se prin centura pelvian&#259; , &#537;i por&#539;iunea lor libera leag&#259; de trunchi prin centura scapular&#259;</rdf:comp.><rdf:sbj.>leag&#259;</rdf:sbj.><rdf:coord.>gamb&#259; &#537;i picior
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Corpul uman</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>trunchi &#537;i membre
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Capul , &#238;mpreuna cu g&#226;tul</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:det.>a corpului extremitatea cefalic&#259;
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Capul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:n.pred.>alc&#259;tuit din cutia cranian&#259; &#537;i fa&#539;&#259;
+</rdf:n.pred.></rdf:Description><rdf:Description><rdf:sbj.>G&#226;tul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>paratiroide
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Trunchiul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>abdomen &#537;i pelvis
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Cavitatea toracic&#259;</rdf:sbj.><rdf:aux.>este</rdf:aux.><rdf:prep.>mu&#537;chi numit diafragm&#259; printr- un
+</rdf:prep.></rdf:Description><rdf:Description><rdf:prep.>inferior de diafragma perineal&#259;</rdf:prep.><rdf:ROOT>continu&#259;</rdf:ROOT><rdf:prep.>inferior de diafragma perineal&#259;
+</rdf:prep.></rdf:Description><rdf:Description><rdf:comp.>Cele ; por&#539;iunea lor liber&#259; are trei segment : bra&#539; , superioare antebra&#539; &#537;i m&#226;n&#259; ; cele inferioare se leag&#259; de trunchi se prin centura pelvian&#259; , &#537;i por&#539;iunea lor libera leag&#259; de trunchi prin centura scapular&#259;</rdf:comp.><rdf:sbj.>leag&#259;</rdf:sbj.><rdf:coord.>gamb&#259; &#537;i picior
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Corpul uman</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>trunchi &#537;i membre
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Capul , &#238;mpreuna cu g&#226;tul</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:det.>a corpului extremitatea cefalic&#259;
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Capul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:n.pred.>alc&#259;tuit din cutia cranian&#259; &#537;i fa&#539;&#259;
+</rdf:n.pred.></rdf:Description><rdf:Description><rdf:sbj.>G&#226;tul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>paratiroide
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Trunchiul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>abdomen &#537;i pelvis
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Cavitatea toracic&#259;</rdf:sbj.><rdf:aux.>este</rdf:aux.><rdf:prep.>mu&#537;chi numit diafragm&#259; printr- un
+</rdf:prep.></rdf:Description><rdf:Description><rdf:prep.>inferior de diafragma perineal&#259;</rdf:prep.><rdf:ROOT>continu&#259;</rdf:ROOT><rdf:prep.>inferior de diafragma perineal&#259;
+</rdf:prep.></rdf:Description><rdf:Description><rdf:comp.>Cele ; por&#539;iunea lor liber&#259; are trei segment : bra&#539; , superioare antebra&#539; &#537;i m&#226;n&#259; ; cele inferioare se leag&#259; de trunchi se prin centura pelvian&#259; , &#537;i por&#539;iunea lor libera leag&#259; de trunchi prin centura scapular&#259;</rdf:comp.><rdf:sbj.>leag&#259;</rdf:sbj.><rdf:coord.>gamb&#259; &#537;i picior
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Corpul omenesc</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:det.>un corp tridimensional , cu trei axe &#537;i trei planuri
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Corpul uman</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>trunchi &#537;i membre
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Capul , &#238;mpreuna cu g&#226;tul</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:det.>a corpului extremitatea cefalic&#259;
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Capul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:n.pred.>alc&#259;tuit din cutia cranian&#259; &#537;i fa&#539;&#259;
+</rdf:n.pred.></rdf:Description><rdf:Description><rdf:sbj.>G&#226;tul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>paratiroide
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Trunchiul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>abdomen &#537;i pelvis
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Cavitatea toracic&#259;</rdf:sbj.><rdf:aux.>este</rdf:aux.><rdf:prep.>mu&#537;chi numit diafragm&#259; printr- un
+</rdf:prep.></rdf:Description><rdf:Description><rdf:prep.>inferior de diafragma perineal&#259;</rdf:prep.><rdf:ROOT>continu&#259;</rdf:ROOT><rdf:prep.>inferior de diafragma perineal&#259;
+</rdf:prep.></rdf:Description><rdf:Description><rdf:comp.>Cele ; por&#539;iunea lor liber&#259; are trei segment : bra&#539; , superioare antebra&#539; &#537;i m&#226;n&#259; ; cele inferioare se leag&#259; de trunchi se prin centura pelvian&#259; , &#537;i por&#539;iunea lor libera leag&#259; de trunchi prin centura scapular&#259;</rdf:comp.><rdf:sbj.>leag&#259;</rdf:sbj.><rdf:coord.>gamb&#259; &#537;i picior
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Corpul omenesc</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:det.>un corp tridimensional , cu trei axe &#537;i trei planuri
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Axele</rdf:sbj.><rdf:ROOT>corespund</rdf:ROOT><rdf:a.adj.>drept &#238;n unghi
+</rdf:a.adj.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Corpul uman</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>trunchi &#537;i membre
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Capul , &#238;mpreuna cu g&#226;tul</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:det.>a corpului extremitatea cefalic&#259;
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Capul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:n.pred.>alc&#259;tuit din cutia cranian&#259; &#537;i fa&#539;&#259;
+</rdf:n.pred.></rdf:Description><rdf:Description><rdf:sbj.>G&#226;tul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>paratiroide
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Trunchiul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>abdomen &#537;i pelvis
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Cavitatea toracic&#259;</rdf:sbj.><rdf:aux.>este</rdf:aux.><rdf:prep.>mu&#537;chi numit diafragm&#259; printr- un
+</rdf:prep.></rdf:Description><rdf:Description><rdf:prep.>inferior de diafragma perineal&#259;</rdf:prep.><rdf:ROOT>continu&#259;</rdf:ROOT><rdf:prep.>inferior de diafragma perineal&#259;
+</rdf:prep.></rdf:Description><rdf:Description><rdf:comp.>Cele ; por&#539;iunea lor liber&#259; are trei segment : bra&#539; , superioare antebra&#539; &#537;i m&#226;n&#259; ; cele inferioare se leag&#259; de trunchi se prin centura pelvian&#259; , &#537;i por&#539;iunea lor libera leag&#259; de trunchi prin centura scapular&#259;</rdf:comp.><rdf:sbj.>leag&#259;</rdf:sbj.><rdf:coord.>gamb&#259; &#537;i picior
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Corpul omenesc</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:det.>un corp tridimensional , cu trei axe &#537;i trei planuri
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Axele</rdf:sbj.><rdf:ROOT>corespund</rdf:ROOT><rdf:a.adj.>drept &#238;n unghi
+</rdf:a.adj.></rdf:Description><rdf:Description><rdf:sbj.>Axul longitudinal</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:coord.>cranial
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Corpul uman</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>trunchi &#537;i membre
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Capul , &#238;mpreuna cu g&#226;tul</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:det.>a corpului extremitatea cefalic&#259;
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Capul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:n.pred.>alc&#259;tuit din cutia cranian&#259; &#537;i fa&#539;&#259;
+</rdf:n.pred.></rdf:Description><rdf:Description><rdf:sbj.>G&#226;tul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>paratiroide
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Trunchiul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>abdomen &#537;i pelvis
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Cavitatea toracic&#259;</rdf:sbj.><rdf:aux.>este</rdf:aux.><rdf:prep.>mu&#537;chi numit diafragm&#259; printr- un
+</rdf:prep.></rdf:Description><rdf:Description><rdf:prep.>inferior de diafragma perineal&#259;</rdf:prep.><rdf:ROOT>continu&#259;</rdf:ROOT><rdf:prep.>inferior de diafragma perineal&#259;
+</rdf:prep.></rdf:Description><rdf:Description><rdf:comp.>Cele ; por&#539;iunea lor liber&#259; are trei segment : bra&#539; , superioare antebra&#539; &#537;i m&#226;n&#259; ; cele inferioare se leag&#259; de trunchi se prin centura pelvian&#259; , &#537;i por&#539;iunea lor libera leag&#259; de trunchi prin centura scapular&#259;</rdf:comp.><rdf:sbj.>leag&#259;</rdf:sbj.><rdf:coord.>gamb&#259; &#537;i picior
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Corpul omenesc</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:det.>un corp tridimensional , cu trei axe &#537;i trei planuri
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Axele</rdf:sbj.><rdf:ROOT>corespund</rdf:ROOT><rdf:a.adj.>drept &#238;n unghi
+</rdf:a.adj.></rdf:Description><rdf:Description><rdf:sbj.>Axul longitudinal</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:coord.>cranial
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>El</rdf:sbj.><rdf:ROOT>pleac&#259;</rdf:ROOT><rdf:a.subst.>spa&#539;iului delimitat de suprafa&#539;a t&#259;lpilor p&#226;n&#259; la nivelul
+</rdf:a.subst.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Corpul uman</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>trunchi &#537;i membre
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Capul , &#238;mpreuna cu g&#226;tul</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:det.>a corpului extremitatea cefalic&#259;
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Capul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:n.pred.>alc&#259;tuit din cutia cranian&#259; &#537;i fa&#539;&#259;
+</rdf:n.pred.></rdf:Description><rdf:Description><rdf:sbj.>G&#226;tul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>paratiroide
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Trunchiul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>abdomen &#537;i pelvis
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Cavitatea toracic&#259;</rdf:sbj.><rdf:aux.>este</rdf:aux.><rdf:prep.>mu&#537;chi numit diafragm&#259; printr- un
+</rdf:prep.></rdf:Description><rdf:Description><rdf:prep.>inferior de diafragma perineal&#259;</rdf:prep.><rdf:ROOT>continu&#259;</rdf:ROOT><rdf:prep.>inferior de diafragma perineal&#259;
+</rdf:prep.></rdf:Description><rdf:Description><rdf:comp.>Cele ; por&#539;iunea lor liber&#259; are trei segment : bra&#539; , superioare antebra&#539; &#537;i m&#226;n&#259; ; cele inferioare se leag&#259; de trunchi se prin centura pelvian&#259; , &#537;i por&#539;iunea lor libera leag&#259; de trunchi prin centura scapular&#259;</rdf:comp.><rdf:sbj.>leag&#259;</rdf:sbj.><rdf:coord.>gamb&#259; &#537;i picior
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Corpul omenesc</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:det.>un corp tridimensional , cu trei axe &#537;i trei planuri
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Axele</rdf:sbj.><rdf:ROOT>corespund</rdf:ROOT><rdf:a.adj.>drept &#238;n unghi
+</rdf:a.adj.></rdf:Description><rdf:Description><rdf:sbj.>Axul longitudinal</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:coord.>cranial
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>El</rdf:sbj.><rdf:ROOT>pleac&#259;</rdf:ROOT><rdf:a.subst.>spa&#539;iului delimitat de suprafa&#539;a t&#259;lpilor p&#226;n&#259; la nivelul
+</rdf:a.subst.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Corpul uman</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>trunchi &#537;i membre
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Capul , &#238;mpreuna cu g&#226;tul</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:det.>a corpului extremitatea cefalic&#259;
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Capul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:n.pred.>alc&#259;tuit din cutia cranian&#259; &#537;i fa&#539;&#259;
+</rdf:n.pred.></rdf:Description><rdf:Description><rdf:sbj.>G&#226;tul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>paratiroide
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Trunchiul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>abdomen &#537;i pelvis
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Cavitatea toracic&#259;</rdf:sbj.><rdf:aux.>este</rdf:aux.><rdf:prep.>mu&#537;chi numit diafragm&#259; printr- un
+</rdf:prep.></rdf:Description><rdf:Description><rdf:prep.>inferior de diafragma perineal&#259;</rdf:prep.><rdf:ROOT>continu&#259;</rdf:ROOT><rdf:prep.>inferior de diafragma perineal&#259;
+</rdf:prep.></rdf:Description><rdf:Description><rdf:comp.>Cele ; por&#539;iunea lor liber&#259; are trei segment : bra&#539; , superioare antebra&#539; &#537;i m&#226;n&#259; ; cele inferioare se leag&#259; de trunchi se prin centura pelvian&#259; , &#537;i por&#539;iunea lor libera leag&#259; de trunchi prin centura scapular&#259;</rdf:comp.><rdf:sbj.>leag&#259;</rdf:sbj.><rdf:coord.>gamb&#259; &#537;i picior
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Corpul omenesc</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:det.>un corp tridimensional , cu trei axe &#537;i trei planuri
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Axele</rdf:sbj.><rdf:ROOT>corespund</rdf:ROOT><rdf:a.adj.>drept &#238;n unghi
+</rdf:a.adj.></rdf:Description><rdf:Description><rdf:sbj.>Axul longitudinal</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:coord.>cranial
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>El</rdf:sbj.><rdf:ROOT>pleac&#259;</rdf:ROOT><rdf:a.subst.>spa&#539;iului delimitat de suprafa&#539;a t&#259;lpilor p&#226;n&#259; la nivelul
+</rdf:a.subst.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Corpul uman</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>trunchi &#537;i membre
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Capul , &#238;mpreuna cu g&#226;tul</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:det.>a corpului extremitatea cefalic&#259;
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Capul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:n.pred.>alc&#259;tuit din cutia cranian&#259; &#537;i fa&#539;&#259;
+</rdf:n.pred.></rdf:Description><rdf:Description><rdf:sbj.>G&#226;tul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>paratiroide
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Trunchiul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>abdomen &#537;i pelvis
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Cavitatea toracic&#259;</rdf:sbj.><rdf:aux.>este</rdf:aux.><rdf:prep.>mu&#537;chi numit diafragm&#259; printr- un
+</rdf:prep.></rdf:Description><rdf:Description><rdf:prep.>inferior de diafragma perineal&#259;</rdf:prep.><rdf:ROOT>continu&#259;</rdf:ROOT><rdf:prep.>inferior de diafragma perineal&#259;
+</rdf:prep.></rdf:Description><rdf:Description><rdf:comp.>Cele ; por&#539;iunea lor liber&#259; are trei segment : bra&#539; , superioare antebra&#539; &#537;i m&#226;n&#259; ; cele inferioare se leag&#259; de trunchi se prin centura pelvian&#259; , &#537;i por&#539;iunea lor libera leag&#259; de trunchi prin centura scapular&#259;</rdf:comp.><rdf:sbj.>leag&#259;</rdf:sbj.><rdf:coord.>gamb&#259; &#537;i picior
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Corpul omenesc</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:det.>un corp tridimensional , cu trei axe &#537;i trei planuri
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Axele</rdf:sbj.><rdf:ROOT>corespund</rdf:ROOT><rdf:a.adj.>drept &#238;n unghi
+</rdf:a.adj.></rdf:Description><rdf:Description><rdf:sbj.>Axul longitudinal</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:coord.>cranial
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>El</rdf:sbj.><rdf:ROOT>pleac&#259;</rdf:ROOT><rdf:a.subst.>spa&#539;iului delimitat de suprafa&#539;a t&#259;lpilor p&#226;n&#259; la nivelul
+</rdf:a.subst.></rdf:Description><rdf:Description><rdf:sbj.>Axul transversal</rdf:sbj.><rdf:ROOT>corespunde</rdf:ROOT><rdf:c.i.>l&#259;&#539;imii corpului
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Corpul uman</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>trunchi &#537;i membre
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Capul , &#238;mpreuna cu g&#226;tul</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:det.>a corpului extremitatea cefalic&#259;
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Capul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:n.pred.>alc&#259;tuit din cutia cranian&#259; &#537;i fa&#539;&#259;
+</rdf:n.pred.></rdf:Description><rdf:Description><rdf:sbj.>G&#226;tul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>paratiroide
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Trunchiul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>abdomen &#537;i pelvis
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Cavitatea toracic&#259;</rdf:sbj.><rdf:aux.>este</rdf:aux.><rdf:prep.>mu&#537;chi numit diafragm&#259; printr- un
+</rdf:prep.></rdf:Description><rdf:Description><rdf:prep.>inferior de diafragma perineal&#259;</rdf:prep.><rdf:ROOT>continu&#259;</rdf:ROOT><rdf:prep.>inferior de diafragma perineal&#259;
+</rdf:prep.></rdf:Description><rdf:Description><rdf:comp.>Cele ; por&#539;iunea lor liber&#259; are trei segment : bra&#539; , superioare antebra&#539; &#537;i m&#226;n&#259; ; cele inferioare se leag&#259; de trunchi se prin centura pelvian&#259; , &#537;i por&#539;iunea lor libera leag&#259; de trunchi prin centura scapular&#259;</rdf:comp.><rdf:sbj.>leag&#259;</rdf:sbj.><rdf:coord.>gamb&#259; &#537;i picior
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Corpul omenesc</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:det.>un corp tridimensional , cu trei axe &#537;i trei planuri
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Axele</rdf:sbj.><rdf:ROOT>corespund</rdf:ROOT><rdf:a.adj.>drept &#238;n unghi
+</rdf:a.adj.></rdf:Description><rdf:Description><rdf:sbj.>Axul longitudinal</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:coord.>cranial
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>El</rdf:sbj.><rdf:ROOT>pleac&#259;</rdf:ROOT><rdf:a.subst.>spa&#539;iului delimitat de suprafa&#539;a t&#259;lpilor p&#226;n&#259; la nivelul
+</rdf:a.subst.></rdf:Description><rdf:Description><rdf:sbj.>Axul transversal</rdf:sbj.><rdf:ROOT>corespunde</rdf:ROOT><rdf:c.i.>l&#259;&#539;imii corpului
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:aux.>sunt</rdf:aux.><rdf:c.i.>&#238;n vederea &#238;ndeplinirii anumitor func&#539;ii &#238;n organism
+</rdf:c.i.></rdf:Description><rdf:Description><rdf:sbj.>Organele</rdf:sbj.><rdf:ROOT>func&#539;ioneaz&#259;</rdf:ROOT><rdf:c.c.m.>unele cu altele
+</rdf:c.c.m.></rdf:Description><rdf:Description><rdf:sbj.>Corpul uman</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>trunchi &#537;i membre
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Capul , &#238;mpreuna cu g&#226;tul</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:det.>a corpului extremitatea cefalic&#259;
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Capul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:n.pred.>alc&#259;tuit din cutia cranian&#259; &#537;i fa&#539;&#259;
+</rdf:n.pred.></rdf:Description><rdf:Description><rdf:sbj.>G&#226;tul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>paratiroide
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Trunchiul</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:coord.>abdomen &#537;i pelvis
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Cavitatea toracic&#259;</rdf:sbj.><rdf:aux.>este</rdf:aux.><rdf:prep.>mu&#537;chi numit diafragm&#259; printr- un
+</rdf:prep.></rdf:Description><rdf:Description><rdf:prep.>inferior de diafragma perineal&#259;</rdf:prep.><rdf:ROOT>continu&#259;</rdf:ROOT><rdf:prep.>inferior de diafragma perineal&#259;
+</rdf:prep.></rdf:Description><rdf:Description><rdf:comp.>Cele ; por&#539;iunea lor liber&#259; are trei segment : bra&#539; , superioare antebra&#539; &#537;i m&#226;n&#259; ; cele inferioare se leag&#259; de trunchi se prin centura pelvian&#259; , &#537;i por&#539;iunea lor libera leag&#259; de trunchi prin centura scapular&#259;</rdf:comp.><rdf:sbj.>leag&#259;</rdf:sbj.><rdf:coord.>gamb&#259; &#537;i picior
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>Corpul omenesc</rdf:sbj.><rdf:ROOT>este</rdf:ROOT><rdf:det.>un corp tridimensional , cu trei axe &#537;i trei planuri
+</rdf:det.></rdf:Description><rdf:Description><rdf:sbj.>Axele</rdf:sbj.><rdf:ROOT>corespund</rdf:ROOT><rdf:a.adj.>drept &#238;n unghi
+</rdf:a.adj.></rdf:Description><rdf:Description><rdf:sbj.>Axul longitudinal</rdf:sbj.><rdf:ROOT>,</rdf:ROOT><rdf:coord.>cranial
+</rdf:coord.></rdf:Description><rdf:Description><rdf:sbj.>El</rdf:sbj.><rdf:ROOT>pleac&#259;</rdf:ROOT><rdf:a.subst.>spa&#539;iului delimitat de suprafa&#539;a t&#259;lpilor p&#226;n&#259; la nivelul
+</rdf:a.subst.></rdf:Description><rdf:Description><rdf:sbj.>Axul transversal</rdf:sbj.><rdf:ROOT>corespunde</rdf:ROOT><rdf:c.i.>l&#259;&#539;imii corpului
+</rdf:c.i.></rdf:Description></rdf:RDF>

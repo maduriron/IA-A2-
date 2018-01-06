@@ -5,7 +5,7 @@ import codecs
 import sys
 
 try:
-    f = codecs.open('sentences-' + sys.argv[1] + '.txt', 'w', 'utf-8')
+    f = codecs.open('sentences-' + sys.argv[1].split('.')[0] + '.txt', 'w', 'utf-8')
     f.write(u'\ufeff')
 
     document = Document(sys.argv[1])
@@ -35,6 +35,6 @@ try:
                         .replace(u'Ă', 'A')\
                         .replace(u'â', 'a')\
                         .replace(u'Î', 'A')
-                    f.write(s + "\n")
+                    f.write(s + '\n')
 except:
     print("ERROR. NU ai introdus fisierul ca parametru")
