@@ -1,0 +1,255 @@
+Pentru enunturile din sentences-proba (text de biologie, clasa a 11-a):
+Structura raspuns pentru un text:
+[ <- lista propozitii
+    [   <- lista tuple din prop
+        (   <- tuplu 
+            []   <- lista subiecti (tot timpu trebuie sa fie exact unul)
+            []   <- lista predicate (-,,-)
+            []   <- lista obiecte (cel putin un obiect; pot fi mai multe)     
+        )
+    ]
+]
+
+
+1.  ->output corect (  nu exista subiect -> deprel="sbj" )
+    [[([None],
+   [('Sistemele', 'ROOT', '1.1')],
+   [('de', 'coord.', '1.17'),
+    ('nutriție', 'prep.', '1.18'),
+    ('și', 'coord.', '1.19'),
+    ('de', 'coord.', '1.20'),
+    ('reproducere', 'prep.', '1.21')])]]
+    
+2.  ->output corect 
+    [[
+        (
+            [('Organele', 'sbj.', '1.1')],
+            [('sunt', 'aux.', '1.2')],
+            [('în vederea', 'c.i.', '1.14'),
+            ('îndeplinirii', 'prep.', '1.15'),
+            ('anumitor', 'a.adj.', '1.16'),
+            ('funcții', 'a.subst.', '1.17'),
+            ('în', 'a.subst.', '1.18'),
+            ('organism', 'prep.', '1.19')]
+        )
+    ]]
+
+3.  -> output corect
+    [[([('Organele', 'sbj.', '1.1')],
+   [('funcționează', 'ROOT', '1.3')],
+   [('unele', 'c.c.m.', '1.12'),
+    ('cu', 'a.subst.', '1.13'),
+    ('altele', 'prep.', '1.14')])]]
+
+4. -> output bad: (subiectul are ca drepel=ROOT, in loc de sbj, iar lista sbj ramane goala)
+    [[([None],
+   [('Sistemele', 'ROOT', '1.1')],
+   [('de', 'coord.', '1.17'),
+    ('nutriție', 'prep.', '1.18'),
+    ('și', 'coord.', '1.19'),
+    ('de', 'coord.', '1.20'),
+    ('reproducere', 'prep.', '1.21')])]]
+
+5. -> output corect
+[[([None],
+   [('Sistemele', 'ROOT', '1.1')],
+   [('de', 'coord.', '1.17'),
+    ('nutriție', 'prep.', '1.18'),
+    ('și', 'coord.', '1.19'),
+    ('de', 'coord.', '1.20'),
+    ('reproducere', 'prep.', '1.21')])]]
+
+6. -> output corect
+    [[([None],
+   [('Segmentele', 'ROOT', '1.1')],
+   [('cropului', 'a.subst.', '1.2'), ('uman', 'a.adj.', '1.3')])]]
+
+7. -> output partial corect ( mai trebuiau obiectele 'cap', 'gat')
+    [[([('Corpul', 'sbj.', '1.1'), ('uman', 'a.adj.', '1.2')],
+   [('este', 'ROOT', '1.3')],
+   [('trunchi', 'coord.', '1.11'),
+    ('și', 'coord.', '1.12'),
+    ('membre', 'coord.', '1.13')])]]
+
+8. -> output bad (predicatul nu este verb)
+[[([('Capul', 'sbj.', '1.1'),
+    (',', 'ROOT', '1.2'),
+    ('împreuna', 'sbj.', '1.3'),
+    ('cu', 'c.i.', '1.4'),
+    ('gâtul', 'prep.', '1.5')],
+   [(',', 'ROOT', '1.2')],
+   [('a', 'det.', '1.10'),
+    ('corpului', 'a.subst.', '1.11'),
+    ('extremitatea', 'c.d.', '1.8'),
+    ('cefalică', 'a.adj.', '1.9')])]]
+
+9. -> output corect 
+[[([('Capul', 'sbj.', '1.1')],
+   [('este', 'ROOT', '1.2')],
+   [('alcătuit', 'n.pred.', '1.3'),
+    ('din', 'c.i.', '1.4'),
+    ('cutia', 'prep.', '1.5'),
+    ('craniană', 'a.adj.', '1.6'),
+    ('și', 'coord.', '1.7'),
+    ('față', 'coord.', '1.8')])]]
+
+10. -> output partial corect (ar mai trebui obiecte)
+[[([('Gâtul', 'sbj.', '1.1')],
+   [('este', 'ROOT', '1.2')],
+   [('paratiroide', 'coord.', '1.26')])]]
+
+11. -> output corect 
+[[([('Trunchiul', 'sbj.', '1.1')],
+   [('este', 'ROOT', '1.2')],
+   [('abdomen', 'coord.', '1.7'),
+    ('și', 'coord.', '1.8'),
+    ('pelvis', 'coord.', '1.9')])]]
+
+12. -> output corect (nu exista sbj)
+[[([None], [('găsesc', 'ROOT', '1.4')], [('viscerele', 'c.d.', '1.15')])]]
+
+13. -> output partial corect (lipsesc anumite detalii 'este separat')
+[([('Cavitatea', 'sbj.', '1.1'), ('toracică', 'a.adj.', '1.2')],
+   [('este', 'aux.', '1.3')],
+   [('mușchi', 'prep.', '1.10'),
+    ('numit', 'a.adj.', '1.11'),
+    ('diafragmă', 'c.c.m.', '1.12'),
+    ('printr-', 'c.ag.', '1.8'),
+    ('un', 'det.', '1.9')])]]
+
+14. -> output bad (subiectul este gresit)
+[[([('inferior', 'prep.', '1.12'),
+    ('de', 'a.adj.', '1.13'),
+    ('diafragma', 'sbj.', '1.14'),
+    ('perineală', 'a.adj.', '1.15')],
+   [('continuă', 'ROOT', '1.4')],
+   [('inferior', 'prep.', '1.12'),
+    ('de', 'a.adj.', '1.13'),
+    ('diafragma', 'sbj.', '1.14'),
+    ('perineală', 'a.adj.', '1.15')])]]
+
+15. -> output corect (propozitia e consituita dintr-un cuvant)
+[[([None], [('Membrele', 'ROOT', '1.1')], [None])]]
+
+16. -> output ? (propozitie ambigua, subiectul nu este explicit. se face referire la un subiect din trecut)
+[[([('Cele', 'comp.', '1.1'),
+    (';', 'aux.', '1.10'),
+    ('porțiunea', 'sbj.', '1.11'),
+    ('lor', 'aux.', '1.12'),
+    ('liberă', 'sbj.', '1.13'),
+    ('are', 'sbj.', '1.14'),
+    ('trei', 'a.adj.', '1.15'),
+    ('segment', 'c.d.', '1.16'),
+    (':', 'a.adj.', '1.17'),
+    ('braț', 'a.subst.', '1.18'),
+    (',', 'ROOT', '1.19'),
+    ('superioare', 'sbj.', '1.2'),
+    ('antebraț', 'coord.', '1.20'),
+    ('și', 'coord.', '1.21'),
+    ('mână', 'coord.', '1.22'),
+    (';', 'aux.', '1.23'),
+    ('cele', 'comp.', '1.24'),
+    ('inferioare', 'c.c.m.', '1.25'),
+    ('se', 'refl.', '1.26'),
+    ('leagă', 'subord.', '1.27'),
+    ('de', 'a.subst.', '1.28'),
+    ('trunchi', 'prep.', '1.29'),
+    ('se', 'refl.', '1.3'),
+    ('prin', 'c.i.', '1.30'),
+    ('centura', 'prep.', '1.31'),
+    ('pelviană', 'a.adj.', '1.32'),
+    (',', 'ROOT', '1.33'),
+    ('și', 'coord.', '1.34'),
+    ('porțiunea', 'coord.', '1.35'),
+    ('lor', 'a.adj.', '1.36'),
+    ('libera', 'c.c.m.', '1.37'),
+    ('leagă', 'sbj.', '1.4'),
+    ('de', 'c.ag.', '1.5'),
+    ('trunchi', 'prep.', '1.6'),
+    ('prin', 'c.i.', '1.7'),
+    ('centura', 'prep.', '1.8'),
+    ('scapulară', 'a.adj.', '1.9')],
+   [('leagă', 'sbj.', '1.4')],
+   [('gambă', 'coord.', '1.47'),
+    ('și', 'coord.', '1.48'),
+    ('picior', 'coord.', '1.49')])]]
+
+17. -> output corect 
+[[([None],
+   [('Planuri', 'ROOT', '1.1')],
+   [('și', 'coord.', '1.2'),
+    ('raporturi', 'coord.', '1.3'),
+    ('anatomice', 'a.adj.', '1.4')])]]
+
+18. -> output corect (propozitie ambigua)
+[[([None],
+   [('alcătuiesc', 'subord.', '1.6')],
+   [('axe', 'coord.', '1.18'),
+    ('și', 'coord.', '1.19'),
+    ('planuri', 'coord.', '1.20')])]]
+
+19. -> output corect 
+[[([('Corpul', 'sbj.', '1.1'), ('omenesc', 'a.adj.',
+'1.2')],
+   [('este', 'ROOT', '1.3')],
+   [('un', 'det.', '1.11'),
+    ('corp', 'n.pred.', '1.12'),
+    ('tridimensional', 'a.adj.', '1.13'),
+    (',', 'ROOT', '1.14'),
+    ('cu', 'a.subst.', '1.15'),
+    ('trei', 'a.adj.', '1.16'),
+    ('axe', 'prep.', '1.17'),
+    ('și', 'coord.', '1.18'),
+    ('trei', 'a.adj.', '1.19'),
+    ('planuri', 'coord.', '1.20')])]]
+
+20. -> output corect
+[[([('Axele', 'sbj.', '1.1')],
+   [('corespund', 'ROOT', '1.2')],
+   [('drept', 'a.adj.', '1.10'),
+    ('în', 'c.c.l.', '1.8'),
+    ('unghi', 'prep.', '1.9')])]]
+
+21. -> output bad (proprietatea nu este un verb)
+[[([('Axul', 'sbj.', '1.1'), ('longitudinal', 'a.adj.', '1.2')],
+   [(',', 'ROOT', '1.3')],
+   [('cranial', 'coord.', '1.19')])]]
+
+22. -> output corect
+[[([('El', 'sbj.', '1.1')],
+   [('pleacă', 'ROOT', '1.2')],
+   [('spațiului', 'a.subst.', '1.10'),
+    ('delimitat', 'a.adj.', '1.11'),
+    ('de', 'c.ag.', '1.12'),
+    ('suprafața', 'prep.', '1.13'),
+    ('tălpilor', 'a.subst.', '1.14'),
+    ('până la', 'c.c.l.', '1.8'),
+    ('nivelul', 'prep.', '1.9')])]]
+
+23. -> output bad (subiectul e luat ca proprietate, proprietatea ca obiect si subiectul nu e adaugat)
+[[([None], [('Axul', 'ROOT', '1.1')], [('este', 'a.adj.', '1.3')])]]
+
+24. -> output corect (lipseste subiectul)
+[[([None],
+   [('Are', 'ROOT', '1.1')],
+   [('un', 'det.', '1.2'),
+    ('pol', 'c.d.', '1.3'),
+    ('anterior', 'a.adj.', '1.4'),
+    ('si', 'coord.', '1.5'),
+    ('altul', 'coord.', '1.6'),
+    ('posterior', 'a.adj.', '1.7')])]]
+
+25. -> output corect
+[[([('Axul', 'sbj.', '1.1'), ('transversal', 'a.adj.', '1.2')],
+   [('corespunde', 'ROOT', '1.3')],
+   [('lățimii', 'c.i.', '1.4'), ('corpului', 'a.subst.', '1.5')])]]
+
+26. -> output corect (se face referire la subiectul din propozitia trecuta)
+[[([None],
+   [('Este', 'ROOT', '1.1')],
+   [('drept', 'a.adj.', '1.10'),
+    ('un', 'det.', '1.5'),
+    ('pol', 'c.d.', '1.6'),
+    ('stâng', 'a.adj.', '1.7'),
+    ('și', 'coord.', '1.8'),
+    ('altul', 'coord.', '1.9')])]]
