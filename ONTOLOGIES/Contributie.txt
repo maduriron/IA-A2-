@@ -1,5 +1,0 @@
-Cojocariu Florin + Damoc Valentin + Matei Bogdan + Strainu Emanuela + Tifrea George
--Implementare functia principala pentru generarea RDF-ului pe baza unui text primit ca input folosind serviciile furnizate de http://nlptools.info.uaic.ro/
--Mai multe detalii referitoare la implementare se pot gasi prin comentarii atasate codului sursa din fisierul Text_to_rdf.py
-
-Moscu George - Fisierul "Sentence_exctractor.py" prin care imparte un document docx in fraze de maxim 100 000 caractere.

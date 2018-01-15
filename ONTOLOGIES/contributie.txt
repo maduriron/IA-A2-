@@ -1,0 +1,35 @@
+Echipa:
+    -Cojocariu Florin
+    -Damoc Valentin
+    -Matei Bogdan
+    -Moscu George
+    -Strainu Emanuela
+    -Tifrea George
+Descrierea Task-urilor:
+    1.Documentare asupra ontologiilor si tipuri de reprezentare ale acestora.
+        Fiecare membru al echipei s-a documentat si a incarcat pe site-ul proiectului datele gasite.
+    2.Construierea de intrebari avand o ontologie.
+        Fiecare membru al echipei a cautat pe internet o ontologie si pe baza acesteia a format intrebari si raspunsuri pentru a putea gasi reguli pe baza carorar sa se poata construi intrebari automat.De asemenea fiecare membru al echipei a incarcat pe site-ul proiectului ce a lucrat.
+    3.Transformarea de text in ontologie.
+        Ce se cere:
+            Primind ca input un text se va analiza textul si ca output un fisier in format rdf sub forma de triplete(subiect,verb,obiect) descriind ontologia formata din textul primit ca input.
+        Maniera de lucru:
+            1.Gasirea unui tool care sa ne ajute in parsarea textului.(documentare);
+            2.Parsarea rezultatului obtinut in urma unui request efectuat asupra tool-ului folosit.
+            3.Formarea rdf cerut ca rezultat.
+Activitatea fiecarui membru legate de task 3:
+ 1.efectuare request pentru tool in vederea obtinerii xml-ului necesar pentru gasirea subiectului, predicatelor si a obiectelor.
+ 2.parsarea rezultatului furnizat de request:
+        2.0.analiza outuput-ului generat de tool in vederea intelegerii atributelor existente(pos,deprel,etc.) si a relatiilor dintre cuvinte apartinand aceleiasi propozitii.
+        2.1.gasire legaturi intre cuvinte pe baza id-urilor;
+        2.2.separatea legaturilor pentru a determinat subiectul, verbul, obiectul;
+        2.3.construirea datelor pentru a fi transformate in rdf:
+            -gasire root si a legaturilor directe ale root-ului(verb)
+            -sortare dupa id
+            -construire tuple:
+                + construire subiect si a legaturilor lui in vederea stabilirii subiectului multiplu;
+                + construire obiect;
+            -validare tuple;
+            
+ 3.construire rdf. Damoc Valentin
+ 4.formatare input(transformare din docx in lista de fraze de lungime maxima 100000)

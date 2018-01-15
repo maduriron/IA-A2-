@@ -170,12 +170,12 @@ def to_rdf(propList):
 # print(to_rdf(parseXMLOutput()))
 
 
-fd = open("Generated_rdf.xml", "wb")
-fd.write(b"<?xml version='1.0' encoding='utf-8'?>\n")
-fd.write(to_rdf(parseXMLOutput('sentences-proba.txt')))
-fd.close()
+#fd = open("Generated_rdf.xml", "wb")
+#fd.write(b"<?xml version='1.0' encoding='utf-8'?>\n")
+#fd.write(to_rdf(parseXMLOutput('sentences-final.txt')))
+#fd.close()
 
-a = parseXMLOutput('sentences-proba.txt')
-pprint(a)
+#a = parseXMLOutput('final.txt')
+#pprint(a)
 
 
