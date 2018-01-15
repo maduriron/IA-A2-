@@ -17,6 +17,7 @@ Descrierea Task-urilor:
             1.Gasirea unui tool care sa ne ajute in parsarea textului.(documentare);
             2.Parsarea rezultatului obtinut in urma unui request efectuat asupra tool-ului folosit.
             3.Formarea rdf cerut ca rezultat.
+			
 Activitatea fiecarui membru legate de task 3:
  1.efectuare request pentru tool in vederea obtinerii xml-ului necesar pentru gasirea subiectului, predicatelor si a obiectelor.
  2.parsarea rezultatului furnizat de request:
@@ -30,6 +31,13 @@ Activitatea fiecarui membru legate de task 3:
                 + construire subiect si a legaturilor lui in vederea stabilirii subiectului multiplu;
                 + construire obiect;
             -validare tuple;
-            
+	Au fost realizate de: 
+	-Cojocariu Florin
+    -Matei Bogdan
+    -Strainu Emanuela
+    -Tifrea George
+	-Cand a fost nevoie au intervenit si Damoc Valentin si Moscu George.
+ 
  3.construire rdf. Damoc Valentin
- 4.formatare input(transformare din docx in lista de fraze de lungime maxima 100000)
+ 4.formatare input(transformare din docx in lista de fraze de lungime maxima 100000) Moscu George
+ 
