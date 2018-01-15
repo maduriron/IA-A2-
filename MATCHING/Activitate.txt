@@ -1,0 +1,73 @@
+﻿Echipa: 
+	Manole Cătălin Constantin
+	Bordeianu Cocea Andrei Răzvan
+	Vrabie Tudor Octavian
+Anul III, Grupa A2
+
+Activitate:
+
+	Prima saptamana:
+		Am depus un efort colectiv in urma caruia ne-am documentat asupra tipurilor de ontologii, atat in forma RDF cat si in forma OWL.
+		Fiecare a incarcat pe pagina de git a proiectului un fisier cu extensia .txt in care regasim informatii relevante despre ontologii, cat si exemple ale acestora (pentru a usura invatarea structurii unei ontologii).
+		
+	A doua saptamana:
+		Fiecare membru al echipei a cautat pe internet o ontologie din domeniul medical si a formulat intrebari si raspunsuri relevante pe baza acesteia. Mai mult decat atat fiecare membru a incarcat pe pagina de git a proiectului
+		un folder in care regasim una sau mai multe imagini in care se poate observa structura ontologiei, fisiere txt cu intrebari si raspunsuri, cat si un fisier ce contine informatii detaliate cu privire la ontologia aleasa
+		(din care se puteau formula raspunsuri mai complexe la intrebari).
+		
+		Manole Catalin: Ontologia - Schistosomiasis
+		https://github.com/maduriron/IA-A2-/tree/master/Sapt2/Manole_Catalin
+		
+		Bordeianu Razvan: Ontologia - Brucella
+		https://github.com/maduriron/IA-A2-/tree/master/Sapt2/Bordeianu_Razan
+		
+		Vrabie Tudor: Ontologia - Toxicity
+		https://github.com/maduriron/IA-A2-/tree/master/Sapt2/VrabieTudorOctavian
+		
+	A treia saptamana:
+		A constat in documentarea asupra metodelor de traducere a unui cuvant/fraze si in generarea unui raspuns ce contine sinonime/inteles asemanator.
+		O data terminata partea teoretica, am investit timp de research asupra unor Api-uri ce lucreaza cu fraze/cuvinte. In urma research-ului am ales sa folosim 2 Api-uri:
+			- Yandex: Api folosit pentru traducerea unui cuvant
+			- DataMuse: Api folosit pentru generarea de cuvinte cu sens asemanator
+			
+		Dupa alegerea Api-urilor s-a implementat un Api End-point in PHP, folosind Laravel. End-point-ul primea ca input un cuvant in limba romana, folosea Yandex Api pentru a-l traduce in limba engleza, apoi
+		prin intermediul Api-ului DataMuse s-a generat o lista de cuvinte cu sens asemanator, iar mai apoi s-a parcurs lista de cuvinte obtinuta pentru a se alege un cuvant. Cuvantul ales a fost mai apoi tradus
+		inapoi in limba romana prin intermediul Yandex Api. Api end-point-ul are doua use-case-uri:
+			- gaseste un cuvant cu sens asemanator si returneaza un raspuns de tip JSON ce contine cuvantul gasit, impreuna cu un status HTTP 200 OK
+			- nu gaseste un cuvant potrivit si returneaza un mesaj de eroare de tip JSON ("Not Found") si un status HTTP 422 Unprocessable entity.
+			
+	A patra saptamana:
+		A constat in optimizarea Api end-point-ului creat in saptamana precedenta. S-a hotarat la schimbarea Api-ului de traduce a cuvantului de la Yandex Api la Google Translate Api.
+		Motivul de schimbare a Api-ului a constat in viteza de raspuns semnificativ superioara a Api-ului oferit de Google. S-a pastrat in continuare DataMuse Api pentru obtinerea de cuvinte/fraze cu sens asemanator.
+		Totodata s-a hotarat asupra rescrierii codului in Python, motivul fiind acela ca integrarea Google Translate Api a fost mult mai simpla. Dupa generarea unui end-point valid, Api-ul a fost hostat pe o platforma
+		oferita de Google (Google Cloud) pentru a putea fi folosit de celelalte module implicate in realizarea proiectului.
+		Api-ul este disponibil la urmatoarea adresa: http://35.190.216.222:8000 ;
+		
+		Exemplu de request:
+				Tip request: POST
+				Request Body:
+								{
+								"words" : [
+								"sira spinarii"
+								]
+								}
+				Raspuns:
+								{
+								"matched": [
+								"coloană vertebrală"
+								],
+								"not-matched": []
+								}							
+			Status: HTTP 200 OK
+			
+	Activitate:
+			Saptamana 3:
+						Vrabie Tudor: Parsarea listei oferita de DataMuse si generarea unui cuvant potrivit + implementare cod Laravel;
+						Manole Catalin: Implementare DataMuse Api
+						Bordeianu Razan: Implementare Yandex Api
+			
+			Saptamana 4: 
+						Vrabie Tudor: Implementare Google Api;
+						Manole Catalin: Implementare Code Python, hosting pe Google Cloud;
+						Bordeianu Razvan: Implementare Google Api, request Sample;
+						
