@@ -1,0 +1,56 @@
+Module:
+--Echipa de ontologii:
+	Folosirea nlp tools
+	Extragerea tripletelor(subiect, predicat, obiect)
+	Gasirea relatiilor intre fiecare element al tripletului
+		si cuvinte din aceeasi propozitie
+	Creare de onotologii de tip rdf
+	Gasirea unor bucati de text convenabil
+--MEMBRI: Cojocariu Florin, Strainu Emanuela, Bogdan Matei, Moscu George, Damoc Valentin, Tifrea George
+
+
+Folosind serviciul SOAP al paginii de nlp tools uaic, echipa de ontologii
+a cautat pedicatele(cuvinte cu POS verb si cu deprel ROOT sau Predicate), iar 
+apoi a cautat subiectul in  legatura cu acel predicat si complementele. 
+Output-ul este o lista [[Subiect si obiecte inrudite cu el din propozitie], [Predicat si 
+obiecte inrudite cu el din propozitie], [Complement si obiectele din propozitie inrudite cu acesta]].
+Fiecare element din  lista va avea si atributul deprel, precum si un id ce indica pozitia cuvantului 
+in propzitia data la input.
+Inputu-ul consta intr-un fisier txt ce este verificat inainte de rularea programului de corectitudinea cuvintelor
+si de cea a partilor de propozitie.
+
+--Echipa pentru corpus:
+	Creare manuala de perechi de tip (intrebare, raspunsuri) din textele medicale
+        Creare manuala de perechi de tip (text, intrebari)
+	Corectarea unui document medical pentru verificarea folosirii diacriticelor
+	Creare de functie pentru verificarea cuvintelor care nu sunt in dictionar
+
+Echipa de corpus a avut rolul de a asigura corectitudinea inputului pentru echipa de machine 
+learning asigurand existenta diacriticelor pentru fiecare cuvant in parte, 
+si de eliminarea cuvintelor care au campul EXTRA NotInDict.
+
+--MEMBRI: Pojar Raluca, Calinescu Monica, Simiganoschi Daniela, Lupu Vlad, Andronic Teodora
+
+	
+--Echipa Machine Learning
+	Corectarea semi-automata a perechilor(text, intrebare)
+	Crearea de input valid
+	Creare de output valid
+	Padarea inputului/outputului
+	Testarea retelei neuronale pe diferite functii de activare
+	Antrenarea
+	Prezicere pe date
+	Aproximarea outputului(Further research)
+
+Echipa de ML are ca target, crearea unei retele neuronale ce are ca input
+un vector de parti de propozitie codificate in numere iar ca target intrebarea
+aferenta textului codificata ca un vector ce contine pozitiile cuvintelor diin textul initial.
+Reteaua ar trebui sa invete ce parti de vorbire sa puna in intrebare si in ce ordine.
+--MEMBRI: Andonesei Samuel, Hostiuc Danut, Miron Radu, Olarasu Loredana, SLeghel Emma, Schifirnet Cosmin
+
+--ECHIPA SET DE REGULI:
+	Folosirea API-ului Muse pentru returnarea de cuvinte inrudite (Manole Catalin, Bordeianu Razvan, Vrabie Tudor)
+	set de reguli I (Richard Mihailescu, Ventaniuc Vladimir, Edu Dorin)
+	set de reguli II(Munteanu Silviu, Iordan Valentin, Hociung Oana)	
+	Parsare document .docx (Leon Daniel)
+	Parsare output echipa de ontologii (Ciobotaru Robert, ROman Nicusor)
